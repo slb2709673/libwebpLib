@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.prepare_command = "sed -i.bak 's/<inttypes.h>/<stdint.h>/g' 'libwebpLib/Classes/libwebp/webp/types.h'"
-  s.preserve_paths = 'src'
+  s.preserve_paths = 'libwebpLib'
   s.pod_target_xcconfig = {"USER_HEADER_SEARCH_PATHS" => "$(inherited) ${PODS_ROOT}/libwebp/ ${PODS_TARGET_SRCROOT}/"}
 
   # s.source_files = 'libwebp-repo/Classes/**/*'
@@ -44,22 +44,22 @@ Pod::Spec.new do |s|
 
   s.subspec 'webp' do |sub|
     sub.header_dir = 'webp'
-    sub.source_files = "src/webp/decode.h", "src/webp/encode.h", "src/webp/types.h", "src/webp/mux_types.h", "src/webp/format_constants.h", "src/utils/*.{h,c}", "src/dsp/*.{h,c}", "src/dec/*.{h,c}", "src/enc/*.{h,c}"
-    sub.public_header_files = "src/webp/decode.h", "src/webp/encode.h", "src/webp/types.h", "src/webp/mux_types.h", "src/webp/format_constants.h"
+    sub.source_files = "libwebpLib/Classes/libwebp/webp/decode.h", "libwebpLib/Classes/libwebp/webp/encode.h", "libwebpLib/Classes/libwebp/webp/types.h", "libwebpLib/Classes/libwebp/webp/mux_types.h", "libwebpLib/Classes/libwebp/webp/format_constants.h", "libwebpLib/Classes/libwebp/utils/*.{h,c}", "libwebpLib/Classes/libwebp/dsp/*.{h,c}", "libwebpLib/Classes/libwebp/dec/*.{h,c}", "src/enc/*.{h,c}"
+    sub.public_header_files = "libwebpLib/Classes/libwebp/webp/decode.h", "libwebpLib/Classes/libwebp/webp/encode.h", "libwebpLib/Classes/libwebp/webp/types.h", "src/webp/mux_types.h", "libwebpLib/Classes/libwebp/webp/format_constants.h"
   end
 
   s.subspec 'demux' do |sub|
-    sub.source_files = 'src/demux/*.{h,c}'
+    sub.source_files = 'libwebpLib/Classes/libwebp/demux/*.{h,c}'
     sub.dependency 'libwebp/webp'
-    source_files = 'src/demux/*.{h,c}', 'src/webp/demux.h'
-    public_header_files = 'src/webp/demux.h'
+    source_files = 'libwebpLib/Classes/libwebp/demux/*.{h,c}', 'libwebpLib/Classes/libwebp/webp/demux.h'
+    public_header_files = 'libwebpLib/Classes/libwebp/webp/demux.h'
   end
 
   s.subspec 'mux' do |sub|
-      sub.source_files = 'src/mux/*.{h,c}'
+      sub.source_files = 'libwebpLib/Classes/libwebp/mux/*.{h,c}'
       sub.dependency 'libwebp/demux'
-      source_files = 'src/mux/*.{h,c}', 'src/webp/mux.h'
-      public_header_files = 'src/webp/mux.h'
+      source_files = 'libwebpLib/Classes/libwebp/mux/*.{h,c}', 'libwebpLib/Classes/libwebp/webp/mux.h'
+      public_header_files = 'libwebpLib/Classes/libwebp/webp/mux.h'
   end
   # s.resource_bundles = {
   #   'libwebp-repo' => ['libwebp-repo/Assets/*.png']
