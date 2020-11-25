@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'libwebpLib_Example' do
+  pod 'libwebpLib', :path => '../'
+
+  target 'libwebpLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
