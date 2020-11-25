@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   Library to encode and decode images in WebP format
                        DESC
 
-  s.homepage         = 'http://git.pinpianyi.com:8110/CocoaPods/libwebp-repo'
+  s.homepage         = 'https://github.com/slb2709673/libwebpLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = 'Google Inc.'
-  s.source           = { :git => 'http://git.pinpianyi.com:8110/CocoaPods/libwebp.git', :tag => "v#{s.version}" }
+  s.source           = { :git => 'https://github.com/slb2709673/libwebpLib.git', :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.compiler_flags  = '-D_THREAD_SAFE'
   s.requires_arc = false
