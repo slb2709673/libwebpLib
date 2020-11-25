@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4F4D35F186583D4EE604B2B /* Pods-libwebpLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libwebpLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-libwebpLib_Tests/Pods-libwebpLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A46E68B7E0DB04A3D1B852 /* Pods_libwebpLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libwebpLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE83B77661FCC75C56438AEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E53ABB4AAEBEA8BF674D411E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ED0CC6C6A4F787565C51B89D /* libwebpLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libwebpLib.podspec; path = ../libwebpLib.podspec; sourceTree = "<group>"; };
+		BE83B77661FCC75C56438AEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E53ABB4AAEBEA8BF674D411E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ED0CC6C6A4F787565C51B89D /* libwebpLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libwebpLib.podspec; path = ../libwebpLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A4F4D35F186583D4EE604B2B /* Pods-libwebpLib_Tests.debug.xcconfig */,
 				20139F6A1C54CA3DB6742572 /* Pods-libwebpLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +324,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-libwebpLib_Example/Pods-libwebpLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/libwebpLib/libwebpLib.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebpLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

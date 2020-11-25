@@ -1,0 +1,71 @@
+{
+  "name": "libwebpLib",
+  "version": "1.0.0",
+  "summary": "Library to encode and decode images in WebP format",
+  "description": "Library to encode and decode images in WebP format",
+  "homepage": "http://git.pinpianyi.com:8110/CocoaPods/libwebp-repo",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": "Google Inc.",
+  "source": {
+    "git": "http://git.pinpianyi.com:8110/CocoaPods/libwebp.git",
+    "tag": "v1.0.0"
+  },
+  "compiler_flags": "-D_THREAD_SAFE",
+  "requires_arc": false,
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "prepare_command": "sed -i.bak 's/<inttypes.h>/<stdint.h>/g' 'libwebpLib/Classes/libwebp/webp/types.h'",
+  "preserve_paths": "src",
+  "pod_target_xcconfig": {
+    "USER_HEADER_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/libwebp/ ${PODS_TARGET_SRCROOT}/"
+  },
+  "subspecs": [
+    {
+      "name": "webp",
+      "header_dir": "webp",
+      "source_files": [
+        "src/webp/decode.h",
+        "src/webp/encode.h",
+        "src/webp/types.h",
+        "src/webp/mux_types.h",
+        "src/webp/format_constants.h",
+        "src/utils/*.{h,c}",
+        "src/dsp/*.{h,c}",
+        "src/dec/*.{h,c}",
+        "src/enc/*.{h,c}"
+      ],
+      "public_header_files": [
+        "src/webp/decode.h",
+        "src/webp/encode.h",
+        "src/webp/types.h",
+        "src/webp/mux_types.h",
+        "src/webp/format_constants.h"
+      ]
+    },
+    {
+      "name": "demux",
+      "source_files": "src/demux/*.{h,c}",
+      "dependencies": {
+        "libwebp/webp": [
+
+        ]
+      }
+    },
+    {
+      "name": "mux",
+      "source_files": "src/mux/*.{h,c}",
+      "dependencies": {
+        "libwebp/demux": [
+
+        ]
+      }
+    }
+  ]
+}

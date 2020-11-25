@@ -1,0 +1,6 @@
+framework module Pods_libwebpLib_Tests {
+  umbrella header "Pods-libwebpLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

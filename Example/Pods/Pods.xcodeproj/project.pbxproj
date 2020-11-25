@@ -1,0 +1,1495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52DA01501136D3F9CFC9BFC4BA5CEC67 /* libwebpLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0D79F9FA8C6E491377BE52812FD442BC /* Build configuration list for PBXAggregateTarget "libwebpLib" */;
+			buildPhases = (
+			);
+			dependencies = (
+				474F14E660F23E6B7674D3BD9D6CFB26 /* PBXTargetDependency */,
+			);
+			name = libwebpLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01D39D1A1300EA4A8BC99A21C7C4F501 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = CCA92DB5B9205B9E95C7CC42F3DFEF40 /* yuv.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0467C6A3CAB0C6E92F20E40252FF776C /* picture_psnr_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 34854949E9F06A5DEC60365E2787C9C9 /* picture_psnr_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		05613F8A378AF010E250F871F2CCFE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0A8D637CE6AA6A00852F1346FCCDE72D /* rescaler_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = E640D9381504964E0639404AE78C9614 /* rescaler_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0B9DD43FF286C0A5C71EA603DD3E031F /* lossless_enc_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 678C29B93B1A809C267CE65BE520C513 /* lossless_enc_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0BA58985EAA6651D784CC12D223B3AA1 /* lossless_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E8A9EA2CE938B1FD875FD72E3AC825E /* lossless_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0D3C176731FD0BBF052C52523C801E97 /* rescaler_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 42352722C209040351EC843779297D45 /* rescaler_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0DA851CBB3C3114EE52152D146386A0B /* lossless_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 79DED199595FD6468142EE9B10A77309 /* lossless_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		0E2A940E37EAEB3C060746BF5E262206 /* lossless_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 406799581196EBD80BCC6A638467120A /* lossless_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		10142C10198E58926EEDA3B7C0FF0A62 /* alpha_processing_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E6589CEEA04962F03E6817948470759 /* alpha_processing_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		1668D6A120C945C9FF74405941DE87EC /* common_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = B16E210A500FC14996392EF14E943A98 /* common_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16D03C24187B53C494571AB4D5E746B1 /* ssim_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5018DB9C964C8206172DA0DDA1477BC5 /* ssim_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		184750D1AFD65FF73D9D3394E555DBCE /* alpha_processing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3CF254CA4E8660B8BB06708BCB187 /* alpha_processing.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		19119698F0B20FB8B019CCBAA13F77AA /* webp_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 52483833E6F20A16D18F77C79FCD0E8B /* webp_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		1B645BE6E8C86DC72366F0B86FFB543C /* upsampling_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA68BDE9AAD8018FB560D1288C9171 /* upsampling_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		1B8405D8BD9D26ED0E255B60E7A363CB /* Pods-libwebpLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05BA9844FCE7EF418CB6B455DB726D /* Pods-libwebpLib_Tests-dummy.m */; };
+		1BB186603644798C46F79BBBC3429EA8 /* endian_inl_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = AB047A90D9077E9C578EC49479C4B155 /* endian_inl_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F8097660283A63BB0CB5B742FF87103 /* vp8_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1CB1CA81C3EF531AB2B6AA768BBB95 /* vp8_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22D8F722395F2D4C4EC0A80254CCBFE6 /* bit_writer_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B5CDDDAB81695F5749C7EAEB938248 /* bit_writer_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		249CA992E9DBA761B2CECA0AB3125135 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = B929F22933AB46930C5E6AD715A1ED2A /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		249E4AC54488F745DFC4689E6446D359 /* picture_rescale_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 045E61262EDADFC68BAA50092F722FBF /* picture_rescale_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		24A59A0B9F6321D42716B97EA0C7A3AA /* huffman_encode_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FC7A4BD2C8535165C07C81490DC4A /* huffman_encode_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		2636794AF650B96B8D6F69AD759B69C0 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B27B3DC76383F193D32AA65587FB33E /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270571C74D9F0CD7ED2D3E928715E756 /* demux.c in Sources */ = {isa = PBXBuildFile; fileRef = 738B4C37B786CACE5ED9381F10DBC1E6 /* demux.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		271DFB47EA86AF684ABB360BBCE9F1B4 /* backward_references_cost_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = D2EAE5A6A3E42C109C30B5CE56D7F3E9 /* backward_references_cost_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		286E113E3FF390E278FB63171EE4A32A /* syntax_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F9504CFB0EECB75A081191BB6AD40B9 /* syntax_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		287E5B456622436D7461CB238261F938 /* iterator_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C11B268F90A32570EA3FD08486687 /* iterator_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		288DFA52402D7B7FD507B068330D817C /* yuv_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 19FBDE4A00570F4BE891D52D7BE7EB6E /* yuv_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		2984326F1094F82D1740F942346F6FAF /* enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = CA68288976E108EB62F6499DB8EE5619 /* enc_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		299489733415EB607B7CD89587A99855 /* config_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BE339E6B2E6B979FFBD77131C5E79 /* config_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		305AB08C1E2CE4FFDF646A8FE46722FD /* yuv_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C28D239A614CF00D690B7F0D6A51328 /* yuv_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		311B051E55F14A9278D9A9897FFA08CF /* neon.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C1E267F699BABA205B090FF1AEE706 /* neon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31C55450F54847CDB7A8B0910DFD21EE /* upsampling_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = D422CAD3197A332D9BEB7CC7DB492527 /* upsampling_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		33106D198B41F515112DDCC0518F3477 /* analysis_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A9F126935A6C9A9847F54213E0C7C4 /* analysis_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		33129FCD69AF24CABE9CF9796ADE16CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		347C2F9D15722E2D4EB48D9A55A602E0 /* cost_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = F65A077E630FAE867E0BED040408E5F7 /* cost_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		3763D4234B2CA641861C504DEFBC13A6 /* frame_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5C2054AA32C51D3CE44AEA63108CA /* frame_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		389260F5C72E07E66E7B303E9726E6E4 /* dec_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 068833D92025453ADE89980210A2C604 /* dec_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		3CA4E2CD5E5F07A4BAEB75E3A30B1678 /* yuv_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 44AEE3B54329E5DD11B6F6E5C3A36C40 /* yuv_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		3CEEE784DC8D933B038D4DA2E68D377B /* upsampling_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = FD4A002F82DECD164404A9DB8E6D0E83 /* upsampling_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		3DCC19087EC63CB4D0734E2A96B569E0 /* enc.c in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4129ADCAA462E077371FE7280DCD /* enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		3E7B9E7EAEB3E7B9840EE1646AC21646 /* dec_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 576135F5CD45CA5E1F8CE150A20177CC /* dec_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		40C1D74A4B9D5F3DFAFA65BDB14148C8 /* color_cache_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B4AB0FF207AF461DB598A5AE23A3F /* color_cache_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		40D56C521584D34777B826D610EBE2C2 /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = DADABF6D29082014811B3CB467D94A28 /* mux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421F455265E1DB6F2931A82ED682BDCC /* idec_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EA60FAB46EF5AE9FBEF48D3ADB425 /* idec_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		436DFA2B03618B252A592F16C5865662 /* webp_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FE4AF8B46CD09670F7855D7803B67 /* webp_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		43A0794E7EE8766B9A10E66B2A638E24 /* dec_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = EFA11BD9FB2B275B7DF7E38D0F64AC5E /* dec_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4452C2D0C1CEED1521C315E7309F2C38 /* thread_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B8E36A6D6DFC1CDABB9ADBC7CAA8F7 /* thread_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4490EE3914EB4416C480386D472337D0 /* Pods-libwebpLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C88144A1905E84FD3F86866BA4CF2FE3 /* Pods-libwebpLib_Example-dummy.m */; };
+		44934667891571D37397E57DD706A4B4 /* lossless_enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 612A3EDE9F152E97735BC0FC9DB66CC4 /* lossless_enc_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		44F6539FF217B401340F01A37B907247 /* thread_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DC9DD1FED824D02D9628A6F6609F1 /* thread_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4614424F307A9A12B9D668CDEB2C8EAC /* random_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C6911DB62D6057257B88C4883BF162A1 /* random_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4B050754FFBCB52509FAEC130E410263 /* dec_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 0118CF52DC7B22F8C315C03BA40A7E17 /* dec_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4BB6452742E5900581CF4C360A9F0E1A /* filter_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C8E3FE07793C41E2E02BA320B74DE1 /* filter_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4C2DADA8942AAEA5E06A00582AC9FE1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4D4D10E9501D6FFC74E89C74BB88EF24 /* quant_levels_dec_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = AFE587C0607B5E881D4ACBCFD8D19DAD /* quant_levels_dec_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		4D6B2449DC944D0328FF6B33F0F002EC /* cost_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = F4D3768A854C1BB0D520CD60FE7300F4 /* cost_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		5146AB69A227F7B82CD907B8531B61F6 /* filters_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = F7F5CB6AC4BBBD8FDE897562CBD2F03A /* filters_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		52112FF98DAA1D0658E6EEB3D0EFA001 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = D22E66F4E6DC60A16990812F358A3615 /* cpu.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		553BB88902CAD4BD6D4F56F2A340FF13 /* format_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A80F0684A537FD5AFC0451EF170806 /* format_constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5862554C0E67CDBFF70D0066B71D24B9 /* dec_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3131A21CF56A00B37EA8F521D26EC66A /* dec_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		5AF09A4DF8D447A323777CB7FC41FBCD /* cost.c in Sources */ = {isa = PBXBuildFile; fileRef = 0BA611244AE420CB53071565FF63F35C /* cost.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		5D2188BE1E9B635A2D61C14A0410C939 /* backward_references_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0562546251D10226ED3AEA8A7E217122 /* backward_references_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D551192B7C308BA20460A186ED1159B /* picture_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A167F04913FB8BFCE8AC68E40C9BF9E /* picture_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		5DFDC4F9DFF114CED526AD0FF302FE14 /* bit_writer_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = ACF006A388451F2B96DB1ACC2FA0FDE3 /* bit_writer_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		6B90DB25DBFC5D3D14DDCF00E6E28FDD /* lossless_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = D62056DD952081E372F59CD9CF3E6ABD /* lossless_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		6C1FB4D36EC916FF91D8A99F3B317E55 /* anim_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 6574A4023258BFF995AE1C802141319D /* anim_decode.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		6EF3DEA47706EB40BAE36DAEBC46CDCC /* color_cache_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DC60B23E8BE450FABAAF39AB2F6ABE /* color_cache_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F689063C8D818351DAEE965204019AD /* lossless_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 628F0F421ADC6613E9BD4DF3A4A54D3B /* lossless_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7085FFE17CB8612DBD1A27ACC2F5E117 /* picture_tools_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = B70019FCC1297F2A76CD71D3D204FB6B /* picture_tools_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		709B813AB2671069696D927B23472DD4 /* vp8i_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F1F38AD111F87DD2A3FFE754E1956B /* vp8i_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		710C642AAB9635648507DE30823C58CF /* alpha_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = C53EDF9B5646125EE33AD510ECD767D4 /* alpha_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7289D3E643A2C9BBCB5EF13397370B9F /* picture_csp_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB2DFF92D5F5E93388FBFDBD0225541 /* picture_csp_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7321CD5E5747B191FBF90F9D0FE2CFAE /* cost_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = C17E19F875F2FE89747CA111AE028171 /* cost_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		743B58C50EE35A21907F8A735DA86B91 /* common_sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9888B6DBC2C492BFEAFECC4312C160D0 /* common_sse2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		749BFA075486956F81C069E2AC44B3B0 /* filters.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EA29AAB86EA958A058D95A69CD73366 /* filters.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		74A9BDF428B98A2B44949ADB22E55017 /* alpha_processing_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E3071AAA1FE440F620BF3E19AB8E6 /* alpha_processing_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		75394B7B9B15E5A4DA3C0ADC3DD6138B /* huffman_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = DC62404E1019D905F0A52E9C03DB448E /* huffman_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7730922E0696AF579D1B97A683578E9F /* alpha_processing_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 62DDB41C00DCB2EE04D10AE13C326676 /* alpha_processing_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		78D4B1DC966B936A1254181FF28F10F8 /* ssim.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7C09D6F4A8F96E7C34807E10F1246 /* ssim.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		79D00E14C947B08C051C889025AA8495 /* predictor_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 12865E9D3818EE824FF362A30CE02088 /* predictor_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7AB341361A7E0DA9FB17ADAB15B723DB /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC868957A90BAC75E545AFBB2BB1B29 /* utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7C8BE44DF126CDF8505646AD8F5AE6C7 /* histogram_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = A56B26C53A49697CABBE173182B3AAD5 /* histogram_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D8DA817EB0D1CCD741BF06F9182808E /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7398FB17CAFAA5C3435908898775E908 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA135E2CD39054FBE01B8E15A293BAE /* common_sse41.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AF1865E7D041609E7924B32B9B95F6 /* common_sse41.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DF0F1AE63B65387694F11EC9D153566 /* filters_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 9801881C219F3D2F74AEE40EE684771C /* filters_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7E9646E9B9CA42DB2697C3DE3E23159A /* upsampling.c in Sources */ = {isa = PBXBuildFile; fileRef = 42004D183931B968901D87D39080FEAB /* upsampling.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		7F5109C2CD2EEEED42CDDCDC90630419 /* near_lossless_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = C59A4B4815F61BA7C2B4BD3B120F2DF8 /* near_lossless_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		813645C2F23A892C4A038C1B41A093BF /* vp8li_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D5B69A1E6B5921D373140B90673E02 /* vp8li_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81C8FE54A47BB408F79362F405C16506 /* webpi_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F6747A2DF87ACA935559C5209FEEE677 /* webpi_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81CE356DF9C932B8E2923F54DDA7E839 /* enc_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = B4AE131DA6BA667E3BE6514563773CCC /* enc_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		833B1C289B1AC4EA46D5AC38C5C1FDFE /* enc_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = AA33BCE85D4EC71FCCC2E71699FE38D0 /* enc_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		84A4DCBAC55F9570AD5B398E4A34926E /* mips_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 512A9A0461E43CB95FC998F137E35DE1 /* mips_macro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8534C979D2CFA37B655532327FCAA02A /* dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE78816EEE84974D5A1A08242947668 /* dsp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86F2987699F9DB3ED36392ABA8530993 /* huffman_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E291533703B41F8AA50975D2833DA74A /* huffman_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87240B0C0F53406AADA662B6BB7613E3 /* cost_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = F2DD76D4B4101DA87FFC7693962923F6 /* cost_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		8750DA9906B26F4BDE741390D23B16E1 /* frame_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = C57DE9E935C2F596F50CAB3457923FAD /* frame_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		88285BAD82A2376A7E559D767A44A55D /* lossless_enc_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = 517EFC33F2E8A04D90E98E1D24489499 /* lossless_enc_sse41.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		88B1D50AEACF673D34211203C5FD3888 /* filters_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 07B4BDB90D147220B4CD12584FD81E55 /* filters_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		8A191449E12AC494D79FF69D55C0DF47 /* Pods-libwebpLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C032ED6BF4803F876DA5F789204CA0 /* Pods-libwebpLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EC18A95131784760FDD46422FC06D36 /* lossless_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 52FFC52568E86072A79D1863A9B66959 /* lossless_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		8F7A31552E325CCDAB7A5A4FD6CE271A /* bit_reader_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6E33E6CFC21B54C29FAE3A51719BEC /* bit_reader_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F9E52873518C9E04699B0AF6D60AAE6 /* enc_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = 801933C3D7D9C08F5B7C262CDBCB17CA /* enc_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		91C574D22DD7E021C0D8B5F1263FC8AE /* dec_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A01ACF601FD27C582310D12F441BDA0 /* dec_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		94D2AF00B2CDFA04D49581E05736673B /* vp8i_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 90148F4BECC098478734F24B8E769BB1 /* vp8i_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		950253446A4906BF2D531A4FDF21ECE7 /* rescaler_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA72E52C996A0954FF404511F5FAD28 /* rescaler_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		9526B0D16B79FD097F1A76D2D31CC959 /* io_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 823297EEF872D8FFED1768D7892B9620 /* io_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		9697CB72ED721C909D733B1CF60C2942 /* dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC8682C2D710568BEF6E3073F3FC24 /* dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		96D05C91E46AC759EB6FE69C9B4047E9 /* rescaler_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4145A41C12D6B8309AEE378964349074 /* rescaler_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		97C96B65C1BF73400490E1870FAF91F9 /* rescaler_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = B8FB8951443441E0C7E650A17B4A5F92 /* rescaler_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		9B840BB956D4D82426DC1F9EC43FD230 /* random_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CBFB1BE278DDD0B6A6997482E3B5E2 /* random_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FD0320AD867B4604A38A92F1BBF4AC4 /* quant_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = E7DD0B0D02262C18E5A0B9C1EE37CE00 /* quant_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		A4DA09E7E588390193F321EE9DEA6317 /* dec_clip_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = 066EFB4C86D917B1C5653C4742CE94B7 /* dec_clip_tables.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		A70E077D271B3904C2EB0806D30C80D9 /* tree_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C4170B9E1EC448D11A8BD9519A502C2 /* tree_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		AA5463F84429C6390688514A7FEC54B3 /* libwebp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52905903A80F8B2431349ADFBC35A1E4 /* libwebp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB25976BFB5B0BC433686316B1A44B28 /* lossless.c in Sources */ = {isa = PBXBuildFile; fileRef = 051FFC2D9EB8BDCE705DF086944D5DC1 /* lossless.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		ACBE11753B8FD1CAE5C418A585FA6668 /* token_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = A5C557B4748362CF959E70397FA60B17 /* token_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		AED1C910CE39EDB14EF4E61F178AC7C8 /* rescaler_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 592B8F76A99B5D9B7A26224CD284237E /* rescaler_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF87AB4763E28BD9CB36279C89AD764E /* quant_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 509ECC4499CCE2088F08020026D7B100 /* quant_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B0F4D5CF46FAFBD5BAB2CBDF51823BE4 /* quant.h in Headers */ = {isa = PBXBuildFile; fileRef = C564BD3918541BBB80CFFA5702DD2028 /* quant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B268AF7B3A49FD6A746DD3BF1199AB79 /* filters_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EFA20807CDC5516CE0575088D57C540 /* filters_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B275857FA752315D95893F0E96A1B4E0 /* tree_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 99FE182661A447AA41038C0D88CB75B0 /* tree_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B31FF6C1EB4A19127A4D7CD29DAB7561 /* lossless_enc_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CF900569507A587CCFD619D14D0CF15 /* lossless_enc_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B50D50E79E6218047C7CD98FA1B9FE50 /* alpha_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = E726622C3CE5203901A76F78337C5BD6 /* alpha_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B6C137919483A61BD6314944BF7A29F0 /* lossless_enc_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = D9A5D382B3F0232F31675EAA957F1D95 /* lossless_enc_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B789793A1586C443C342D587C0B20ED8 /* vp8l_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF6CFB65C8510DB1AF8C79B3A47343 /* vp8l_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B927826E5425E561E6A351629B2A69F8 /* rescaler.c in Sources */ = {isa = PBXBuildFile; fileRef = 57FAB9FB74B63E6C616F8660C17E70BF /* rescaler.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		B9B3E4B637261482F5693DCCF29C1B15 /* quant_levels_dec_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0D1E752A04251611EDB39C6D7E2B65 /* quant_levels_dec_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAFDD069B7DBBC350A3EDD75B4549028 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = A9435D829F924B27646D0B9FF8252B59 /* demux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1E07D2454AA513065FBA684E0870E4 /* filters_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F342FFB0D03F493B66C56225B41D971 /* filters_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C18D89A661A084C79471E1348792AA09 /* backward_references_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 066BFEB0C4C7F1957FB72BF692C50B78 /* backward_references_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		C581855FD49640D0E0C37ED634BFF225 /* yuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C44EA999A1CDCA638DADCC47988E93 /* yuv.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6997C33C8E62988FBA2DDB9A81B0196 /* yuv_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = A25E14E70585FC3B9581C74BF49301BC /* yuv_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		C6B5ABEED793BAB8C4765AE62BEDE3D6 /* cost_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD15F80B76385F5968E9475A1C8F65F /* cost_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C71902E65398F6424A49A1E73119FC03 /* rescaler_mips32.c in Sources */ = {isa = PBXBuildFile; fileRef = 344D1AA1E2C5AE114E01E3FF330D273F /* rescaler_mips32.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		C8D3309B48D260F67E8C19F4CE867C9D /* enc_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = BF44261217003C80751342B25F3D0D48 /* enc_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		CA2D6B8AB46F330C40FFF454BAB5DBEC /* lossless_enc_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = DBC944B9822B0E54FC62158916381E7E /* lossless_enc_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		D33BAD24654B18CB0DD737B1F14C6C05 /* yuv_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E513F0C2BE9EDA0A4EFD18C8C795C /* yuv_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		D616184D1FB6461C3F06D6D3BFBB1B93 /* filters_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 1675392191CC635A3434531184158040 /* filters_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		DB03F62AA7C4856647017C8C764813B2 /* bit_reader_inl_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8257E8109C3869AC7922DF09917B545E /* bit_reader_inl_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBA4382D787DAE39F5A531EBCAFA4ED3 /* lossless.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F72D18F3AD20CD951475FE8905B7747 /* lossless.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCAD05C8F462B26D4E09774F9D9E0047 /* enc_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F8EFFBBE619D9B200D083D14331B119 /* enc_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		DF5C9C32D07BF249E59BDE88BE8211E2 /* cost_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 391E7CFF27E69F755AD8743032C77FFA /* cost_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		DFC0D4EB15502CFAA345F9676BE7AD74 /* alphai_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B6C180DD4694D8E480F497A2432E33 /* alphai_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5BEDE5204F1F9B4BC2C987DC5A830ED /* vp8li_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EC7A11429A6CE11A9685207BB84D0F /* vp8li_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8726C07A6EAC4D2B0E8D89293D0883E /* vp8_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 48CAB311AF8F99C91DE19A7FD6787F11 /* vp8_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		EB97CE552EC5891D51327D76A037AE88 /* Pods-libwebpLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF46C3331E227206028F2F681C05576 /* Pods-libwebpLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBDA7FC1CE3FB59E86ACE97B5C6C772C /* msa_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3E34F8D9A2E0F5E9177D12434B25FE /* msa_macro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC1F8ED6B42C43BA59AF400233670C78 /* quant_levels_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 94E9572A64420CF6999B220CD149116D /* quant_levels_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		EDDC476CB5090DFB55740106ACAEF131 /* buffer_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 6865A9A718F72F999C1FF1B0B2A4B78A /* buffer_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		EF230211BC47F594F5277451F6882AF8 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470277311573693F40979CAF92D362E /* utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0AE4025AB16C7E8A66372DD47920EBF /* libwebp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258D40283F0CC198878A9235CDFF2F5 /* libwebp-dummy.m */; };
+		F27DDA88A22374A32E3A21EB41F323B6 /* alpha_processing_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B008E7F623920AE57E4762D5CBAFADE /* alpha_processing_sse2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		F40C9500A5F53997A423FEC40106F38D /* quant_levels_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 063B45C9059078F02837F58319ACB669 /* quant_levels_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F47E7555E549373EF4AB24F127B5B60F /* huffman_encode_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C32565719F58E198FC048436DF48B1 /* huffman_encode_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6255F6157CA11E64B3C27E70CB2628E /* bit_reader_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C130A5B3606A701C991DA85A735FD272 /* bit_reader_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		F74864376A7C8CB6E5FCD81178FFB465 /* vp8l_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 73501D324742E611DD3F4070215CA6E4 /* vp8l_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		F8761DB2E2FC6195D554D577717CB5CC /* upsampling_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4394AB0D7D48C77CB7020B2B7FD9F /* upsampling_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		FA6F4212A8307C7F4B263F7DA736B762 /* histogram_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = D6374B4128687B3DEFF7341AA50DFB03 /* histogram_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		FB6F598E8C91DB05411CB0164E2FAE5C /* upsampling_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 71920132FC055E6D2BFB1C91F59A0FD2 /* upsampling_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7FD3C05BFD2F2BF73BC548D47C285A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DA01501136D3F9CFC9BFC4BA5CEC67;
+			remoteInfo = libwebpLib;
+		};
+		4CDDB5FD6FFEE9C830E41AF375E8886B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D2E85A78C25869BB13521D8561A638;
+			remoteInfo = libwebp;
+		};
+		51C07C784925BFECB76C4BD3B8FA16DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D2E85A78C25869BB13521D8561A638;
+			remoteInfo = libwebp;
+		};
+		DF3770DD40D57129CF1CACA88D59F6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44F2DDADC2E65ECE7B2E38E3C9BEBAD;
+			remoteInfo = "Pods-libwebpLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0118CF52DC7B22F8C315C03BA40A7E17 /* dec_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_msa.c; path = src/dsp/dec_msa.c; sourceTree = "<group>"; };
+		0258D40283F0CC198878A9235CDFF2F5 /* libwebp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libwebp-dummy.m"; sourceTree = "<group>"; };
+		045E61262EDADFC68BAA50092F722FBF /* picture_rescale_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = picture_rescale_enc.c; path = src/enc/picture_rescale_enc.c; sourceTree = "<group>"; };
+		051FFC2D9EB8BDCE705DF086944D5DC1 /* lossless.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless.c; path = src/dsp/lossless.c; sourceTree = "<group>"; };
+		0562546251D10226ED3AEA8A7E217122 /* backward_references_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = backward_references_enc.h; path = src/enc/backward_references_enc.h; sourceTree = "<group>"; };
+		063B45C9059078F02837F58319ACB669 /* quant_levels_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quant_levels_utils.h; path = src/utils/quant_levels_utils.h; sourceTree = "<group>"; };
+		064E728F17B7FA65B681DF7E5CD5DF96 /* Pods-libwebpLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libwebpLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		066BFEB0C4C7F1957FB72BF692C50B78 /* backward_references_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = backward_references_enc.c; path = src/enc/backward_references_enc.c; sourceTree = "<group>"; };
+		066EFB4C86D917B1C5653C4742CE94B7 /* dec_clip_tables.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_clip_tables.c; path = src/dsp/dec_clip_tables.c; sourceTree = "<group>"; };
+		068833D92025453ADE89980210A2C604 /* dec_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_sse41.c; path = src/dsp/dec_sse41.c; sourceTree = "<group>"; };
+		06D5B69A1E6B5921D373140B90673E02 /* vp8li_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vp8li_enc.h; path = src/enc/vp8li_enc.h; sourceTree = "<group>"; };
+		07B4BDB90D147220B4CD12584FD81E55 /* filters_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters_mips_dsp_r2.c; path = src/dsp/filters_mips_dsp_r2.c; sourceTree = "<group>"; };
+		08F5C1492D436614E3319BDAC1EEA0F9 /* Pods-libwebpLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebpLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B1B4AB0FF207AF461DB598A5AE23A3F /* color_cache_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = color_cache_utils.c; path = src/utils/color_cache_utils.c; sourceTree = "<group>"; };
+		0BA611244AE420CB53071565FF63F35C /* cost.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost.c; path = src/dsp/cost.c; sourceTree = "<group>"; };
+		0D7ED8F69A2BF290C6B3A964577998AF /* Pods-libwebpLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libwebpLib_Example.modulemap"; sourceTree = "<group>"; };
+		0F9504CFB0EECB75A081191BB6AD40B9 /* syntax_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = syntax_enc.c; path = src/enc/syntax_enc.c; sourceTree = "<group>"; };
+		12865E9D3818EE824FF362A30CE02088 /* predictor_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = predictor_enc.c; path = src/enc/predictor_enc.c; sourceTree = "<group>"; };
+		1675392191CC635A3434531184158040 /* filters_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters_utils.c; path = src/utils/filters_utils.c; sourceTree = "<group>"; };
+		19FBDE4A00570F4BE891D52D7BE7EB6E /* yuv_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv_sse41.c; path = src/dsp/yuv_sse41.c; sourceTree = "<group>"; };
+		1AF4394AB0D7D48C77CB7020B2B7FD9F /* upsampling_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling_msa.c; path = src/dsp/upsampling_msa.c; sourceTree = "<group>"; };
+		1B7EA60FAB46EF5AE9FBEF48D3ADB425 /* idec_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = idec_dec.c; path = src/dec/idec_dec.c; sourceTree = "<group>"; };
+		20C1E267F699BABA205B090FF1AEE706 /* neon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neon.h; path = src/dsp/neon.h; sourceTree = "<group>"; };
+		28C44EA999A1CDCA638DADCC47988E93 /* yuv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yuv.h; path = src/dsp/yuv.h; sourceTree = "<group>"; };
+		28C8E3FE07793C41E2E02BA320B74DE1 /* filter_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_enc.c; path = src/enc/filter_enc.c; sourceTree = "<group>"; };
+		2A01ACF601FD27C582310D12F441BDA0 /* dec_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_mips32.c; path = src/dsp/dec_mips32.c; sourceTree = "<group>"; };
+		2BE78816EEE84974D5A1A08242947668 /* dsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsp.h; path = src/dsp/dsp.h; sourceTree = "<group>"; };
+		2C2DC9DD1FED824D02D9628A6F6609F1 /* thread_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_utils.c; path = src/utils/thread_utils.c; sourceTree = "<group>"; };
+		2CF900569507A587CCFD619D14D0CF15 /* lossless_enc_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_mips32.c; path = src/dsp/lossless_enc_mips32.c; sourceTree = "<group>"; };
+		2DD15F80B76385F5968E9475A1C8F65F /* cost_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cost_enc.h; path = src/enc/cost_enc.h; sourceTree = "<group>"; };
+		2DF3CF254CA4E8660B8BB06708BCB187 /* alpha_processing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_processing.c; path = src/dsp/alpha_processing.c; sourceTree = "<group>"; };
+		2EF46C3331E227206028F2F681C05576 /* Pods-libwebpLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libwebpLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		3131A21CF56A00B37EA8F521D26EC66A /* dec_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_neon.c; path = src/dsp/dec_neon.c; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		344D1AA1E2C5AE114E01E3FF330D273F /* rescaler_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_mips32.c; path = src/dsp/rescaler_mips32.c; sourceTree = "<group>"; };
+		34854949E9F06A5DEC60365E2787C9C9 /* picture_psnr_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = picture_psnr_enc.c; path = src/enc/picture_psnr_enc.c; sourceTree = "<group>"; };
+		391E7CFF27E69F755AD8743032C77FFA /* cost_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost_mips_dsp_r2.c; path = src/dsp/cost_mips_dsp_r2.c; sourceTree = "<group>"; };
+		3C28D239A614CF00D690B7F0D6A51328 /* yuv_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv_mips32.c; path = src/dsp/yuv_mips32.c; sourceTree = "<group>"; };
+		3E6589CEEA04962F03E6817948470759 /* alpha_processing_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_processing_sse41.c; path = src/dsp/alpha_processing_sse41.c; sourceTree = "<group>"; };
+		3EFA20807CDC5516CE0575088D57C540 /* filters_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters_sse2.c; path = src/dsp/filters_sse2.c; sourceTree = "<group>"; };
+		3F8EFFBBE619D9B200D083D14331B119 /* enc_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_mips_dsp_r2.c; path = src/dsp/enc_mips_dsp_r2.c; sourceTree = "<group>"; };
+		406799581196EBD80BCC6A638467120A /* lossless_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_mips_dsp_r2.c; path = src/dsp/lossless_mips_dsp_r2.c; sourceTree = "<group>"; };
+		4145A41C12D6B8309AEE378964349074 /* rescaler_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_utils.c; path = src/utils/rescaler_utils.c; sourceTree = "<group>"; };
+		42004D183931B968901D87D39080FEAB /* upsampling.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling.c; path = src/dsp/upsampling.c; sourceTree = "<group>"; };
+		42352722C209040351EC843779297D45 /* rescaler_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_sse2.c; path = src/dsp/rescaler_sse2.c; sourceTree = "<group>"; };
+		425538F966163BB20704544E526D7F91 /* Pods_libwebpLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libwebpLib_Tests.framework; path = "Pods-libwebpLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AEE3B54329E5DD11B6F6E5C3A36C40 /* yuv_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv_sse2.c; path = src/dsp/yuv_sse2.c; sourceTree = "<group>"; };
+		47B37066476C008F4F6AECBE16EB8F88 /* Pods-libwebpLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libwebpLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4831817A1FE57FDF82F0294CF27C1021 /* Pods-libwebpLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebpLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48CAB311AF8F99C91DE19A7FD6787F11 /* vp8_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vp8_dec.c; path = src/dec/vp8_dec.c; sourceTree = "<group>"; };
+		4A0FE4AF8B46CD09670F7855D7803B67 /* webp_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = webp_enc.c; path = src/enc/webp_enc.c; sourceTree = "<group>"; };
+		4A167F04913FB8BFCE8AC68E40C9BF9E /* picture_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = picture_enc.c; path = src/enc/picture_enc.c; sourceTree = "<group>"; };
+		5018DB9C964C8206172DA0DDA1477BC5 /* ssim_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ssim_sse2.c; path = src/dsp/ssim_sse2.c; sourceTree = "<group>"; };
+		509ECC4499CCE2088F08020026D7B100 /* quant_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = quant_dec.c; path = src/dec/quant_dec.c; sourceTree = "<group>"; };
+		512A9A0461E43CB95FC998F137E35DE1 /* mips_macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mips_macro.h; path = src/dsp/mips_macro.h; sourceTree = "<group>"; };
+		517EFC33F2E8A04D90E98E1D24489499 /* lossless_enc_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_sse41.c; path = src/dsp/lossless_enc_sse41.c; sourceTree = "<group>"; };
+		52483833E6F20A16D18F77C79FCD0E8B /* webp_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = webp_dec.c; path = src/dec/webp_dec.c; sourceTree = "<group>"; };
+		52905903A80F8B2431349ADFBC35A1E4 /* libwebp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libwebp-umbrella.h"; sourceTree = "<group>"; };
+		52FFC52568E86072A79D1863A9B66959 /* lossless_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_msa.c; path = src/dsp/lossless_msa.c; sourceTree = "<group>"; };
+		54A9F126935A6C9A9847F54213E0C7C4 /* analysis_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = analysis_enc.c; path = src/enc/analysis_enc.c; sourceTree = "<group>"; };
+		54B6C180DD4694D8E480F497A2432E33 /* alphai_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alphai_dec.h; path = src/dec/alphai_dec.h; sourceTree = "<group>"; };
+		576135F5CD45CA5E1F8CE150A20177CC /* dec_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_mips_dsp_r2.c; path = src/dsp/dec_mips_dsp_r2.c; sourceTree = "<group>"; };
+		57FAB9FB74B63E6C616F8660C17E70BF /* rescaler.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler.c; path = src/dsp/rescaler.c; sourceTree = "<group>"; };
+		581BAA9F9A14E087BF5B4DBBCB9CAF3B /* Pods-libwebpLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebpLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		592B8F76A99B5D9B7A26224CD284237E /* rescaler_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rescaler_utils.h; path = src/utils/rescaler_utils.h; sourceTree = "<group>"; };
+		5A7FC7A4BD2C8535165C07C81490DC4A /* huffman_encode_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = huffman_encode_utils.c; path = src/utils/huffman_encode_utils.c; sourceTree = "<group>"; };
+		5B008E7F623920AE57E4762D5CBAFADE /* alpha_processing_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_processing_sse2.c; path = src/dsp/alpha_processing_sse2.c; sourceTree = "<group>"; };
+		5CDA68BDE9AAD8018FB560D1288C9171 /* upsampling_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling_sse41.c; path = src/dsp/upsampling_sse41.c; sourceTree = "<group>"; };
+		5E4674603A5D5B9215FFA0F8E69F8B71 /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libwebp.framework; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4F656E73648D37BCBD646150E4F156 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5FEC8682C2D710568BEF6E3073F3FC24 /* dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec.c; path = src/dsp/dec.c; sourceTree = "<group>"; };
+		60DC60B23E8BE450FABAAF39AB2F6ABE /* color_cache_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = color_cache_utils.h; path = src/utils/color_cache_utils.h; sourceTree = "<group>"; };
+		612A3EDE9F152E97735BC0FC9DB66CC4 /* lossless_enc_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_msa.c; path = src/dsp/lossless_enc_msa.c; sourceTree = "<group>"; };
+		61D3C9914D65071B1EDBCCE5B8F87FE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		623D1CF01E40BE7BDB82A268BAF42879 /* Pods-libwebpLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libwebpLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		628F0F421ADC6613E9BD4DF3A4A54D3B /* lossless_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lossless_common.h; path = src/dsp/lossless_common.h; sourceTree = "<group>"; };
+		62DDB41C00DCB2EE04D10AE13C326676 /* alpha_processing_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_processing_mips_dsp_r2.c; path = src/dsp/alpha_processing_mips_dsp_r2.c; sourceTree = "<group>"; };
+		6574A4023258BFF995AE1C802141319D /* anim_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = anim_decode.c; path = src/demux/anim_decode.c; sourceTree = "<group>"; };
+		678C29B93B1A809C267CE65BE520C513 /* lossless_enc_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_neon.c; path = src/dsp/lossless_enc_neon.c; sourceTree = "<group>"; };
+		6865A9A718F72F999C1FF1B0B2A4B78A /* buffer_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer_dec.c; path = src/dec/buffer_dec.c; sourceTree = "<group>"; };
+		6B6C11B268F90A32570EA3FD08486687 /* iterator_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator_enc.c; path = src/enc/iterator_enc.c; sourceTree = "<group>"; };
+		6BAF6CFB65C8510DB1AF8C79B3A47343 /* vp8l_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vp8l_dec.c; path = src/dec/vp8l_dec.c; sourceTree = "<group>"; };
+		6E05BA9844FCE7EF418CB6B455DB726D /* Pods-libwebpLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libwebpLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E8A9EA2CE938B1FD875FD72E3AC825E /* lossless_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_sse2.c; path = src/dsp/lossless_sse2.c; sourceTree = "<group>"; };
+		6EC7C09D6F4A8F96E7C34807E10F1246 /* ssim.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ssim.c; path = src/dsp/ssim.c; sourceTree = "<group>"; };
+		71920132FC055E6D2BFB1C91F59A0FD2 /* upsampling_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling_mips_dsp_r2.c; path = src/dsp/upsampling_mips_dsp_r2.c; sourceTree = "<group>"; };
+		72F1F38AD111F87DD2A3FFE754E1956B /* vp8i_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vp8i_enc.h; path = src/enc/vp8i_enc.h; sourceTree = "<group>"; };
+		73501D324742E611DD3F4070215CA6E4 /* vp8l_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vp8l_enc.c; path = src/enc/vp8l_enc.c; sourceTree = "<group>"; };
+		738B4C37B786CACE5ED9381F10DBC1E6 /* demux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = demux.c; path = src/demux/demux.c; sourceTree = "<group>"; };
+		7398FB17CAFAA5C3435908898775E908 /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = src/webp/encode.h; sourceTree = "<group>"; };
+		7643BDFC6CAA8DE04DF33EFD2911712A /* Pods_libwebpLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libwebpLib_Example.framework; path = "Pods-libwebpLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DED199595FD6468142EE9B10A77309 /* lossless_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_neon.c; path = src/dsp/lossless_neon.c; sourceTree = "<group>"; };
+		7A7E3071AAA1FE440F620BF3E19AB8E6 /* alpha_processing_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_processing_neon.c; path = src/dsp/alpha_processing_neon.c; sourceTree = "<group>"; };
+		7B27B3DC76383F193D32AA65587FB33E /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = src/webp/types.h; sourceTree = "<group>"; };
+		7C2BE339E6B2E6B979FFBD77131C5E79 /* config_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = config_enc.c; path = src/enc/config_enc.c; sourceTree = "<group>"; };
+		7E9E513F0C2BE9EDA0A4EFD18C8C795C /* yuv_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv_mips_dsp_r2.c; path = src/dsp/yuv_mips_dsp_r2.c; sourceTree = "<group>"; };
+		7F342FFB0D03F493B66C56225B41D971 /* filters_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filters_utils.h; path = src/utils/filters_utils.h; sourceTree = "<group>"; };
+		801933C3D7D9C08F5B7C262CDBCB17CA /* enc_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_mips32.c; path = src/dsp/enc_mips32.c; sourceTree = "<group>"; };
+		823297EEF872D8FFED1768D7892B9620 /* io_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = io_dec.c; path = src/dec/io_dec.c; sourceTree = "<group>"; };
+		8257E8109C3869AC7922DF09917B545E /* bit_reader_inl_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bit_reader_inl_utils.h; path = src/utils/bit_reader_inl_utils.h; sourceTree = "<group>"; };
+		83B03326D891F6353F38F2812F9FF571 /* libwebpLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libwebpLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8470277311573693F40979CAF92D362E /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utils.h; path = src/utils/utils.h; sourceTree = "<group>"; };
+		86B8E36A6D6DFC1CDABB9ADBC7CAA8F7 /* thread_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_utils.h; path = src/utils/thread_utils.h; sourceTree = "<group>"; };
+		8C4170B9E1EC448D11A8BD9519A502C2 /* tree_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tree_enc.c; path = src/enc/tree_enc.c; sourceTree = "<group>"; };
+		8EA29AAB86EA958A058D95A69CD73366 /* filters.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters.c; path = src/dsp/filters.c; sourceTree = "<group>"; };
+		8F72D18F3AD20CD951475FE8905B7747 /* lossless.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lossless.h; path = src/dsp/lossless.h; sourceTree = "<group>"; };
+		90148F4BECC098478734F24B8E769BB1 /* vp8i_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vp8i_dec.h; path = src/dec/vp8i_dec.h; sourceTree = "<group>"; };
+		91A5C2054AA32C51D3CE44AEA63108CA /* frame_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = frame_enc.c; path = src/enc/frame_enc.c; sourceTree = "<group>"; };
+		92AF1865E7D041609E7924B32B9B95F6 /* common_sse41.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common_sse41.h; path = src/dsp/common_sse41.h; sourceTree = "<group>"; };
+		94E9572A64420CF6999B220CD149116D /* quant_levels_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = quant_levels_utils.c; path = src/utils/quant_levels_utils.c; sourceTree = "<group>"; };
+		95C032ED6BF4803F876DA5F789204CA0 /* Pods-libwebpLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libwebpLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9801881C219F3D2F74AEE40EE684771C /* filters_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters_msa.c; path = src/dsp/filters_msa.c; sourceTree = "<group>"; };
+		9888B6DBC2C492BFEAFECC4312C160D0 /* common_sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common_sse2.h; path = src/dsp/common_sse2.h; sourceTree = "<group>"; };
+		99C32565719F58E198FC048436DF48B1 /* huffman_encode_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = huffman_encode_utils.h; path = src/utils/huffman_encode_utils.h; sourceTree = "<group>"; };
+		99FE182661A447AA41038C0D88CB75B0 /* tree_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tree_dec.c; path = src/dec/tree_dec.c; sourceTree = "<group>"; };
+		9D291F74D39CD23BBC108A7ACBFEFD8D /* Pods-libwebpLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libwebpLib_Tests.modulemap"; sourceTree = "<group>"; };
+		9D8CE3AF8E886AE700ADCC6BADF6BD5F /* libwebp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F1057001C5C07A888A921EEE4B7141 /* Pods-libwebpLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libwebpLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A25E14E70585FC3B9581C74BF49301BC /* yuv_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv_neon.c; path = src/dsp/yuv_neon.c; sourceTree = "<group>"; };
+		A56B26C53A49697CABBE173182B3AAD5 /* histogram_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = histogram_enc.h; path = src/enc/histogram_enc.h; sourceTree = "<group>"; };
+		A5C557B4748362CF959E70397FA60B17 /* token_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = token_enc.c; path = src/enc/token_enc.c; sourceTree = "<group>"; };
+		A9435D829F924B27646D0B9FF8252B59 /* demux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = demux.h; path = src/webp/demux.h; sourceTree = "<group>"; };
+		AA33BCE85D4EC71FCCC2E71699FE38D0 /* enc_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_neon.c; path = src/dsp/enc_neon.c; sourceTree = "<group>"; };
+		AB047A90D9077E9C578EC49479C4B155 /* endian_inl_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endian_inl_utils.h; path = src/utils/endian_inl_utils.h; sourceTree = "<group>"; };
+		ACF006A388451F2B96DB1ACC2FA0FDE3 /* bit_writer_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bit_writer_utils.c; path = src/utils/bit_writer_utils.c; sourceTree = "<group>"; };
+		AFE587C0607B5E881D4ACBCFD8D19DAD /* quant_levels_dec_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = quant_levels_dec_utils.c; path = src/utils/quant_levels_dec_utils.c; sourceTree = "<group>"; };
+		B16E210A500FC14996392EF14E943A98 /* common_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common_dec.h; path = src/dec/common_dec.h; sourceTree = "<group>"; };
+		B2C3C5CECC26F10D60C3341488AE5F63 /* libwebp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libwebp-prefix.pch"; sourceTree = "<group>"; };
+		B2CBFB1BE278DDD0B6A6997482E3B5E2 /* random_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_utils.h; path = src/utils/random_utils.h; sourceTree = "<group>"; };
+		B3A80F0684A537FD5AFC0451EF170806 /* format_constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format_constants.h; path = src/webp/format_constants.h; sourceTree = "<group>"; };
+		B3EC7A11429A6CE11A9685207BB84D0F /* vp8li_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vp8li_dec.h; path = src/dec/vp8li_dec.h; sourceTree = "<group>"; };
+		B4AE131DA6BA667E3BE6514563773CCC /* enc_sse41.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_sse41.c; path = src/dsp/enc_sse41.c; sourceTree = "<group>"; };
+		B70019FCC1297F2A76CD71D3D204FB6B /* picture_tools_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = picture_tools_enc.c; path = src/enc/picture_tools_enc.c; sourceTree = "<group>"; };
+		B8FB8951443441E0C7E650A17B4A5F92 /* rescaler_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_mips_dsp_r2.c; path = src/dsp/rescaler_mips_dsp_r2.c; sourceTree = "<group>"; };
+		B929F22933AB46930C5E6AD715A1ED2A /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode.h; path = src/webp/decode.h; sourceTree = "<group>"; };
+		BBF44F1F15D92945AA5FB50A52530E45 /* Pods-libwebpLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libwebpLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC6E33E6CFC21B54C29FAE3A51719BEC /* bit_reader_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bit_reader_utils.h; path = src/utils/bit_reader_utils.h; sourceTree = "<group>"; };
+		BDB2DFF92D5F5E93388FBFDBD0225541 /* picture_csp_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = picture_csp_enc.c; path = src/enc/picture_csp_enc.c; sourceTree = "<group>"; };
+		BE92301AA51B0BF392D81909531EA1C1 /* libwebp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libwebp-Info.plist"; sourceTree = "<group>"; };
+		BF0D1E752A04251611EDB39C6D7E2B65 /* quant_levels_dec_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quant_levels_dec_utils.h; path = src/utils/quant_levels_dec_utils.h; sourceTree = "<group>"; };
+		BF44261217003C80751342B25F3D0D48 /* enc_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_sse2.c; path = src/dsp/enc_sse2.c; sourceTree = "<group>"; };
+		C130A5B3606A701C991DA85A735FD272 /* bit_reader_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bit_reader_utils.c; path = src/utils/bit_reader_utils.c; sourceTree = "<group>"; };
+		C17E19F875F2FE89747CA111AE028171 /* cost_mips32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost_mips32.c; path = src/dsp/cost_mips32.c; sourceTree = "<group>"; };
+		C48853FB01D445ECBF059337A2CF1AD0 /* libwebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.debug.xcconfig; sourceTree = "<group>"; };
+		C53EDF9B5646125EE33AD510ECD767D4 /* alpha_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_enc.c; path = src/enc/alpha_enc.c; sourceTree = "<group>"; };
+		C564BD3918541BBB80CFFA5702DD2028 /* quant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quant.h; path = src/dsp/quant.h; sourceTree = "<group>"; };
+		C57DE9E935C2F596F50CAB3457923FAD /* frame_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = frame_dec.c; path = src/dec/frame_dec.c; sourceTree = "<group>"; };
+		C59A4B4815F61BA7C2B4BD3B120F2DF8 /* near_lossless_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = near_lossless_enc.c; path = src/enc/near_lossless_enc.c; sourceTree = "<group>"; };
+		C5CE3E2C4C62127D222F64986D2B51BF /* Pods-libwebpLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libwebpLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6911DB62D6057257B88C4883BF162A1 /* random_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = random_utils.c; path = src/utils/random_utils.c; sourceTree = "<group>"; };
+		C6B5CDDDAB81695F5749C7EAEB938248 /* bit_writer_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bit_writer_utils.h; path = src/utils/bit_writer_utils.h; sourceTree = "<group>"; };
+		C88144A1905E84FD3F86866BA4CF2FE3 /* Pods-libwebpLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libwebpLib_Example-dummy.m"; sourceTree = "<group>"; };
+		CA68288976E108EB62F6499DB8EE5619 /* enc_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc_msa.c; path = src/dsp/enc_msa.c; sourceTree = "<group>"; };
+		CC7ECBDC496C890DD63C186ACE1193DA /* Pods-libwebpLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libwebpLib_Example-Info.plist"; sourceTree = "<group>"; };
+		CC9FEF91E16EE5AB38E8463D5C4244B2 /* libwebpLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebpLib.release.xcconfig; sourceTree = "<group>"; };
+		CCA92DB5B9205B9E95C7CC42F3DFEF40 /* yuv.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yuv.c; path = src/dsp/yuv.c; sourceTree = "<group>"; };
+		CEFF4129ADCAA462E077371FE7280DCD /* enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = enc.c; path = src/dsp/enc.c; sourceTree = "<group>"; };
+		D22E66F4E6DC60A16990812F358A3615 /* cpu.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cpu.c; path = src/dsp/cpu.c; sourceTree = "<group>"; };
+		D2EAE5A6A3E42C109C30B5CE56D7F3E9 /* backward_references_cost_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = backward_references_cost_enc.c; path = src/enc/backward_references_cost_enc.c; sourceTree = "<group>"; };
+		D422CAD3197A332D9BEB7CC7DB492527 /* upsampling_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling_neon.c; path = src/dsp/upsampling_neon.c; sourceTree = "<group>"; };
+		D62056DD952081E372F59CD9CF3E6ABD /* lossless_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc.c; path = src/dsp/lossless_enc.c; sourceTree = "<group>"; };
+		D6374B4128687B3DEFF7341AA50DFB03 /* histogram_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = histogram_enc.c; path = src/enc/histogram_enc.c; sourceTree = "<group>"; };
+		D9A5D382B3F0232F31675EAA957F1D95 /* lossless_enc_mips_dsp_r2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_mips_dsp_r2.c; path = src/dsp/lossless_enc_mips_dsp_r2.c; sourceTree = "<group>"; };
+		DA1CB1CA81C3EF531AB2B6AA768BBB95 /* vp8_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vp8_dec.h; path = src/dec/vp8_dec.h; sourceTree = "<group>"; };
+		DADABF6D29082014811B3CB467D94A28 /* mux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mux_types.h; path = src/webp/mux_types.h; sourceTree = "<group>"; };
+		DBC944B9822B0E54FC62158916381E7E /* lossless_enc_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lossless_enc_sse2.c; path = src/dsp/lossless_enc_sse2.c; sourceTree = "<group>"; };
+		DC62404E1019D905F0A52E9C03DB448E /* huffman_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = huffman_utils.c; path = src/utils/huffman_utils.c; sourceTree = "<group>"; };
+		DCA72E52C996A0954FF404511F5FAD28 /* rescaler_msa.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_msa.c; path = src/dsp/rescaler_msa.c; sourceTree = "<group>"; };
+		DF510DE8363D73DD08C355EB7D32DAED /* libwebp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libwebp.modulemap; sourceTree = "<group>"; };
+		E291533703B41F8AA50975D2833DA74A /* huffman_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = huffman_utils.h; path = src/utils/huffman_utils.h; sourceTree = "<group>"; };
+		E42A67DA0199106CC6F2F5BAD6EB29D6 /* libwebpLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebpLib.debug.xcconfig; sourceTree = "<group>"; };
+		E640D9381504964E0639404AE78C9614 /* rescaler_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rescaler_neon.c; path = src/dsp/rescaler_neon.c; sourceTree = "<group>"; };
+		E726622C3CE5203901A76F78337C5BD6 /* alpha_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = alpha_dec.c; path = src/dec/alpha_dec.c; sourceTree = "<group>"; };
+		E7DD0B0D02262C18E5A0B9C1EE37CE00 /* quant_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = quant_enc.c; path = src/enc/quant_enc.c; sourceTree = "<group>"; };
+		EEC868957A90BAC75E545AFBB2BB1B29 /* utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utils.c; path = src/utils/utils.c; sourceTree = "<group>"; };
+		EFA11BD9FB2B275B7DF7E38D0F64AC5E /* dec_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dec_sse2.c; path = src/dsp/dec_sse2.c; sourceTree = "<group>"; };
+		F2DD76D4B4101DA87FFC7693962923F6 /* cost_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost_neon.c; path = src/dsp/cost_neon.c; sourceTree = "<group>"; };
+		F4D3768A854C1BB0D520CD60FE7300F4 /* cost_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost_sse2.c; path = src/dsp/cost_sse2.c; sourceTree = "<group>"; };
+		F65A077E630FAE867E0BED040408E5F7 /* cost_enc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cost_enc.c; path = src/enc/cost_enc.c; sourceTree = "<group>"; };
+		F6747A2DF87ACA935559C5209FEEE677 /* webpi_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = webpi_dec.h; path = src/dec/webpi_dec.h; sourceTree = "<group>"; };
+		F7145B237E68E4A7EBE77D76C442FE37 /* Pods-libwebpLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libwebpLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F5CB6AC4BBBD8FDE897562CBD2F03A /* filters_neon.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filters_neon.c; path = src/dsp/filters_neon.c; sourceTree = "<group>"; };
+		FD4A002F82DECD164404A9DB8E6D0E83 /* upsampling_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = upsampling_sse2.c; path = src/dsp/upsampling_sse2.c; sourceTree = "<group>"; };
+		FE3E34F8D9A2E0F5E9177D12434B25FE /* msa_macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msa_macro.h; path = src/dsp/msa_macro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B21FDE13FC8A858B9179252F3B26E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2DADA8942AAEA5E06A00582AC9FE1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E914F82D2C63EBEDA25F1E87BC0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05613F8A378AF010E250F871F2CCFE5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548C7FDDAE9EE55A031C68C959FFBBD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33129FCD69AF24CABE9CF9796ADE16CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302F82AB916549CE5F2FC949FC1DA838 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE852B45166F39B10A85F57786470DC4 /* Pods-libwebpLib_Example */,
+				52EB0A598E24616733E463FBBCB23B71 /* Pods-libwebpLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47609CCBEA6F925F82DB7C2DFC30C29C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83B03326D891F6353F38F2812F9FF571 /* libwebpLib.podspec */,
+				5F4F656E73648D37BCBD646150E4F156 /* LICENSE */,
+				61D3C9914D65071B1EDBCCE5B8F87FE5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		493CC207DE689E98195125ABD578D0DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF510DE8363D73DD08C355EB7D32DAED /* libwebp.modulemap */,
+				0258D40283F0CC198878A9235CDFF2F5 /* libwebp-dummy.m */,
+				BE92301AA51B0BF392D81909531EA1C1 /* libwebp-Info.plist */,
+				B2C3C5CECC26F10D60C3341488AE5F63 /* libwebp-prefix.pch */,
+				52905903A80F8B2431349ADFBC35A1E4 /* libwebp-umbrella.h */,
+				C48853FB01D445ECBF059337A2CF1AD0 /* libwebp.debug.xcconfig */,
+				9D8CE3AF8E886AE700ADCC6BADF6BD5F /* libwebp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libwebp";
+			sourceTree = "<group>";
+		};
+		52EB0A598E24616733E463FBBCB23B71 /* Pods-libwebpLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D291F74D39CD23BBC108A7ACBFEFD8D /* Pods-libwebpLib_Tests.modulemap */,
+				623D1CF01E40BE7BDB82A268BAF42879 /* Pods-libwebpLib_Tests-acknowledgements.markdown */,
+				C5CE3E2C4C62127D222F64986D2B51BF /* Pods-libwebpLib_Tests-acknowledgements.plist */,
+				6E05BA9844FCE7EF418CB6B455DB726D /* Pods-libwebpLib_Tests-dummy.m */,
+				064E728F17B7FA65B681DF7E5CD5DF96 /* Pods-libwebpLib_Tests-Info.plist */,
+				95C032ED6BF4803F876DA5F789204CA0 /* Pods-libwebpLib_Tests-umbrella.h */,
+				4831817A1FE57FDF82F0294CF27C1021 /* Pods-libwebpLib_Tests.debug.xcconfig */,
+				08F5C1492D436614E3319BDAC1EEA0F9 /* Pods-libwebpLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-libwebpLib_Tests";
+			path = "Target Support Files/Pods-libwebpLib_Tests";
+			sourceTree = "<group>";
+		};
+		75B980474BB8EA0473E1133D0350CB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E4674603A5D5B9215FFA0F8E69F8B71 /* libwebp.framework */,
+				7643BDFC6CAA8DE04DF33EFD2911712A /* Pods_libwebpLib_Example.framework */,
+				425538F966163BB20704544E526D7F91 /* Pods_libwebpLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D38284836CEFC5488C86554B62B0FDB /* webp */ = {
+			isa = PBXGroup;
+			children = (
+				E726622C3CE5203901A76F78337C5BD6 /* alpha_dec.c */,
+				C53EDF9B5646125EE33AD510ECD767D4 /* alpha_enc.c */,
+				2DF3CF254CA4E8660B8BB06708BCB187 /* alpha_processing.c */,
+				62DDB41C00DCB2EE04D10AE13C326676 /* alpha_processing_mips_dsp_r2.c */,
+				7A7E3071AAA1FE440F620BF3E19AB8E6 /* alpha_processing_neon.c */,
+				5B008E7F623920AE57E4762D5CBAFADE /* alpha_processing_sse2.c */,
+				3E6589CEEA04962F03E6817948470759 /* alpha_processing_sse41.c */,
+				54B6C180DD4694D8E480F497A2432E33 /* alphai_dec.h */,
+				54A9F126935A6C9A9847F54213E0C7C4 /* analysis_enc.c */,
+				D2EAE5A6A3E42C109C30B5CE56D7F3E9 /* backward_references_cost_enc.c */,
+				066BFEB0C4C7F1957FB72BF692C50B78 /* backward_references_enc.c */,
+				0562546251D10226ED3AEA8A7E217122 /* backward_references_enc.h */,
+				8257E8109C3869AC7922DF09917B545E /* bit_reader_inl_utils.h */,
+				C130A5B3606A701C991DA85A735FD272 /* bit_reader_utils.c */,
+				BC6E33E6CFC21B54C29FAE3A51719BEC /* bit_reader_utils.h */,
+				ACF006A388451F2B96DB1ACC2FA0FDE3 /* bit_writer_utils.c */,
+				C6B5CDDDAB81695F5749C7EAEB938248 /* bit_writer_utils.h */,
+				6865A9A718F72F999C1FF1B0B2A4B78A /* buffer_dec.c */,
+				0B1B4AB0FF207AF461DB598A5AE23A3F /* color_cache_utils.c */,
+				60DC60B23E8BE450FABAAF39AB2F6ABE /* color_cache_utils.h */,
+				B16E210A500FC14996392EF14E943A98 /* common_dec.h */,
+				9888B6DBC2C492BFEAFECC4312C160D0 /* common_sse2.h */,
+				92AF1865E7D041609E7924B32B9B95F6 /* common_sse41.h */,
+				7C2BE339E6B2E6B979FFBD77131C5E79 /* config_enc.c */,
+				0BA611244AE420CB53071565FF63F35C /* cost.c */,
+				F65A077E630FAE867E0BED040408E5F7 /* cost_enc.c */,
+				2DD15F80B76385F5968E9475A1C8F65F /* cost_enc.h */,
+				C17E19F875F2FE89747CA111AE028171 /* cost_mips32.c */,
+				391E7CFF27E69F755AD8743032C77FFA /* cost_mips_dsp_r2.c */,
+				F2DD76D4B4101DA87FFC7693962923F6 /* cost_neon.c */,
+				F4D3768A854C1BB0D520CD60FE7300F4 /* cost_sse2.c */,
+				D22E66F4E6DC60A16990812F358A3615 /* cpu.c */,
+				5FEC8682C2D710568BEF6E3073F3FC24 /* dec.c */,
+				066EFB4C86D917B1C5653C4742CE94B7 /* dec_clip_tables.c */,
+				2A01ACF601FD27C582310D12F441BDA0 /* dec_mips32.c */,
+				576135F5CD45CA5E1F8CE150A20177CC /* dec_mips_dsp_r2.c */,
+				0118CF52DC7B22F8C315C03BA40A7E17 /* dec_msa.c */,
+				3131A21CF56A00B37EA8F521D26EC66A /* dec_neon.c */,
+				EFA11BD9FB2B275B7DF7E38D0F64AC5E /* dec_sse2.c */,
+				068833D92025453ADE89980210A2C604 /* dec_sse41.c */,
+				B929F22933AB46930C5E6AD715A1ED2A /* decode.h */,
+				2BE78816EEE84974D5A1A08242947668 /* dsp.h */,
+				CEFF4129ADCAA462E077371FE7280DCD /* enc.c */,
+				801933C3D7D9C08F5B7C262CDBCB17CA /* enc_mips32.c */,
+				3F8EFFBBE619D9B200D083D14331B119 /* enc_mips_dsp_r2.c */,
+				CA68288976E108EB62F6499DB8EE5619 /* enc_msa.c */,
+				AA33BCE85D4EC71FCCC2E71699FE38D0 /* enc_neon.c */,
+				BF44261217003C80751342B25F3D0D48 /* enc_sse2.c */,
+				B4AE131DA6BA667E3BE6514563773CCC /* enc_sse41.c */,
+				7398FB17CAFAA5C3435908898775E908 /* encode.h */,
+				AB047A90D9077E9C578EC49479C4B155 /* endian_inl_utils.h */,
+				28C8E3FE07793C41E2E02BA320B74DE1 /* filter_enc.c */,
+				8EA29AAB86EA958A058D95A69CD73366 /* filters.c */,
+				07B4BDB90D147220B4CD12584FD81E55 /* filters_mips_dsp_r2.c */,
+				9801881C219F3D2F74AEE40EE684771C /* filters_msa.c */,
+				F7F5CB6AC4BBBD8FDE897562CBD2F03A /* filters_neon.c */,
+				3EFA20807CDC5516CE0575088D57C540 /* filters_sse2.c */,
+				1675392191CC635A3434531184158040 /* filters_utils.c */,
+				7F342FFB0D03F493B66C56225B41D971 /* filters_utils.h */,
+				B3A80F0684A537FD5AFC0451EF170806 /* format_constants.h */,
+				C57DE9E935C2F596F50CAB3457923FAD /* frame_dec.c */,
+				91A5C2054AA32C51D3CE44AEA63108CA /* frame_enc.c */,
+				D6374B4128687B3DEFF7341AA50DFB03 /* histogram_enc.c */,
+				A56B26C53A49697CABBE173182B3AAD5 /* histogram_enc.h */,
+				5A7FC7A4BD2C8535165C07C81490DC4A /* huffman_encode_utils.c */,
+				99C32565719F58E198FC048436DF48B1 /* huffman_encode_utils.h */,
+				DC62404E1019D905F0A52E9C03DB448E /* huffman_utils.c */,
+				E291533703B41F8AA50975D2833DA74A /* huffman_utils.h */,
+				1B7EA60FAB46EF5AE9FBEF48D3ADB425 /* idec_dec.c */,
+				823297EEF872D8FFED1768D7892B9620 /* io_dec.c */,
+				6B6C11B268F90A32570EA3FD08486687 /* iterator_enc.c */,
+				051FFC2D9EB8BDCE705DF086944D5DC1 /* lossless.c */,
+				8F72D18F3AD20CD951475FE8905B7747 /* lossless.h */,
+				628F0F421ADC6613E9BD4DF3A4A54D3B /* lossless_common.h */,
+				D62056DD952081E372F59CD9CF3E6ABD /* lossless_enc.c */,
+				2CF900569507A587CCFD619D14D0CF15 /* lossless_enc_mips32.c */,
+				D9A5D382B3F0232F31675EAA957F1D95 /* lossless_enc_mips_dsp_r2.c */,
+				612A3EDE9F152E97735BC0FC9DB66CC4 /* lossless_enc_msa.c */,
+				678C29B93B1A809C267CE65BE520C513 /* lossless_enc_neon.c */,
+				DBC944B9822B0E54FC62158916381E7E /* lossless_enc_sse2.c */,
+				517EFC33F2E8A04D90E98E1D24489499 /* lossless_enc_sse41.c */,
+				406799581196EBD80BCC6A638467120A /* lossless_mips_dsp_r2.c */,
+				52FFC52568E86072A79D1863A9B66959 /* lossless_msa.c */,
+				79DED199595FD6468142EE9B10A77309 /* lossless_neon.c */,
+				6E8A9EA2CE938B1FD875FD72E3AC825E /* lossless_sse2.c */,
+				512A9A0461E43CB95FC998F137E35DE1 /* mips_macro.h */,
+				FE3E34F8D9A2E0F5E9177D12434B25FE /* msa_macro.h */,
+				DADABF6D29082014811B3CB467D94A28 /* mux_types.h */,
+				C59A4B4815F61BA7C2B4BD3B120F2DF8 /* near_lossless_enc.c */,
+				20C1E267F699BABA205B090FF1AEE706 /* neon.h */,
+				BDB2DFF92D5F5E93388FBFDBD0225541 /* picture_csp_enc.c */,
+				4A167F04913FB8BFCE8AC68E40C9BF9E /* picture_enc.c */,
+				34854949E9F06A5DEC60365E2787C9C9 /* picture_psnr_enc.c */,
+				045E61262EDADFC68BAA50092F722FBF /* picture_rescale_enc.c */,
+				B70019FCC1297F2A76CD71D3D204FB6B /* picture_tools_enc.c */,
+				12865E9D3818EE824FF362A30CE02088 /* predictor_enc.c */,
+				C564BD3918541BBB80CFFA5702DD2028 /* quant.h */,
+				509ECC4499CCE2088F08020026D7B100 /* quant_dec.c */,
+				E7DD0B0D02262C18E5A0B9C1EE37CE00 /* quant_enc.c */,
+				AFE587C0607B5E881D4ACBCFD8D19DAD /* quant_levels_dec_utils.c */,
+				BF0D1E752A04251611EDB39C6D7E2B65 /* quant_levels_dec_utils.h */,
+				94E9572A64420CF6999B220CD149116D /* quant_levels_utils.c */,
+				063B45C9059078F02837F58319ACB669 /* quant_levels_utils.h */,
+				C6911DB62D6057257B88C4883BF162A1 /* random_utils.c */,
+				B2CBFB1BE278DDD0B6A6997482E3B5E2 /* random_utils.h */,
+				57FAB9FB74B63E6C616F8660C17E70BF /* rescaler.c */,
+				344D1AA1E2C5AE114E01E3FF330D273F /* rescaler_mips32.c */,
+				B8FB8951443441E0C7E650A17B4A5F92 /* rescaler_mips_dsp_r2.c */,
+				DCA72E52C996A0954FF404511F5FAD28 /* rescaler_msa.c */,
+				E640D9381504964E0639404AE78C9614 /* rescaler_neon.c */,
+				42352722C209040351EC843779297D45 /* rescaler_sse2.c */,
+				4145A41C12D6B8309AEE378964349074 /* rescaler_utils.c */,
+				592B8F76A99B5D9B7A26224CD284237E /* rescaler_utils.h */,
+				6EC7C09D6F4A8F96E7C34807E10F1246 /* ssim.c */,
+				5018DB9C964C8206172DA0DDA1477BC5 /* ssim_sse2.c */,
+				0F9504CFB0EECB75A081191BB6AD40B9 /* syntax_enc.c */,
+				2C2DC9DD1FED824D02D9628A6F6609F1 /* thread_utils.c */,
+				86B8E36A6D6DFC1CDABB9ADBC7CAA8F7 /* thread_utils.h */,
+				A5C557B4748362CF959E70397FA60B17 /* token_enc.c */,
+				99FE182661A447AA41038C0D88CB75B0 /* tree_dec.c */,
+				8C4170B9E1EC448D11A8BD9519A502C2 /* tree_enc.c */,
+				7B27B3DC76383F193D32AA65587FB33E /* types.h */,
+				42004D183931B968901D87D39080FEAB /* upsampling.c */,
+				71920132FC055E6D2BFB1C91F59A0FD2 /* upsampling_mips_dsp_r2.c */,
+				1AF4394AB0D7D48C77CB7020B2B7FD9F /* upsampling_msa.c */,
+				D422CAD3197A332D9BEB7CC7DB492527 /* upsampling_neon.c */,
+				FD4A002F82DECD164404A9DB8E6D0E83 /* upsampling_sse2.c */,
+				5CDA68BDE9AAD8018FB560D1288C9171 /* upsampling_sse41.c */,
+				EEC868957A90BAC75E545AFBB2BB1B29 /* utils.c */,
+				8470277311573693F40979CAF92D362E /* utils.h */,
+				48CAB311AF8F99C91DE19A7FD6787F11 /* vp8_dec.c */,
+				DA1CB1CA81C3EF531AB2B6AA768BBB95 /* vp8_dec.h */,
+				90148F4BECC098478734F24B8E769BB1 /* vp8i_dec.h */,
+				72F1F38AD111F87DD2A3FFE754E1956B /* vp8i_enc.h */,
+				6BAF6CFB65C8510DB1AF8C79B3A47343 /* vp8l_dec.c */,
+				73501D324742E611DD3F4070215CA6E4 /* vp8l_enc.c */,
+				B3EC7A11429A6CE11A9685207BB84D0F /* vp8li_dec.h */,
+				06D5B69A1E6B5921D373140B90673E02 /* vp8li_enc.h */,
+				52483833E6F20A16D18F77C79FCD0E8B /* webp_dec.c */,
+				4A0FE4AF8B46CD09670F7855D7803B67 /* webp_enc.c */,
+				F6747A2DF87ACA935559C5209FEEE677 /* webpi_dec.h */,
+				CCA92DB5B9205B9E95C7CC42F3DFEF40 /* yuv.c */,
+				28C44EA999A1CDCA638DADCC47988E93 /* yuv.h */,
+				3C28D239A614CF00D690B7F0D6A51328 /* yuv_mips32.c */,
+				7E9E513F0C2BE9EDA0A4EFD18C8C795C /* yuv_mips_dsp_r2.c */,
+				A25E14E70585FC3B9581C74BF49301BC /* yuv_neon.c */,
+				44AEE3B54329E5DD11B6F6E5C3A36C40 /* yuv_sse2.c */,
+				19FBDE4A00570F4BE891D52D7BE7EB6E /* yuv_sse41.c */,
+			);
+			name = webp;
+			sourceTree = "<group>";
+		};
+		8CCE4B60E5BA1924E116727895422AD4 /* libwebp */ = {
+			isa = PBXGroup;
+			children = (
+				C9F80E0520C17021075D5B98B27F4035 /* demux */,
+				493CC207DE689E98195125ABD578D0DB /* Support Files */,
+				7D38284836CEFC5488C86554B62B0FDB /* webp */,
+			);
+			name = libwebp;
+			path = libwebp;
+			sourceTree = "<group>";
+		};
+		BE852B45166F39B10A85F57786470DC4 /* Pods-libwebpLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0D7ED8F69A2BF290C6B3A964577998AF /* Pods-libwebpLib_Example.modulemap */,
+				F7145B237E68E4A7EBE77D76C442FE37 /* Pods-libwebpLib_Example-acknowledgements.markdown */,
+				BBF44F1F15D92945AA5FB50A52530E45 /* Pods-libwebpLib_Example-acknowledgements.plist */,
+				C88144A1905E84FD3F86866BA4CF2FE3 /* Pods-libwebpLib_Example-dummy.m */,
+				47B37066476C008F4F6AECBE16EB8F88 /* Pods-libwebpLib_Example-frameworks.sh */,
+				CC7ECBDC496C890DD63C186ACE1193DA /* Pods-libwebpLib_Example-Info.plist */,
+				2EF46C3331E227206028F2F681C05576 /* Pods-libwebpLib_Example-umbrella.h */,
+				A1F1057001C5C07A888A921EEE4B7141 /* Pods-libwebpLib_Example.debug.xcconfig */,
+				581BAA9F9A14E087BF5B4DBBCB9CAF3B /* Pods-libwebpLib_Example.release.xcconfig */,
+			);
+			name = "Pods-libwebpLib_Example";
+			path = "Target Support Files/Pods-libwebpLib_Example";
+			sourceTree = "<group>";
+		};
+		C04F61DD455424D6E03EE7E0DA0A5838 /* libwebpLib */ = {
+			isa = PBXGroup;
+			children = (
+				47609CCBEA6F925F82DB7C2DFC30C29C /* Pod */,
+				FAA5AC71FCE5CF90EAEC7118B0D68678 /* Support Files */,
+			);
+			name = libwebpLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4C79B49852E13A0D6F6161113F02168 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04F61DD455424D6E03EE7E0DA0A5838 /* libwebpLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9F80E0520C17021075D5B98B27F4035 /* demux */ = {
+			isa = PBXGroup;
+			children = (
+				6574A4023258BFF995AE1C802141319D /* anim_decode.c */,
+				738B4C37B786CACE5ED9381F10DBC1E6 /* demux.c */,
+				A9435D829F924B27646D0B9FF8252B59 /* demux.h */,
+			);
+			name = demux;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C4C79B49852E13A0D6F6161113F02168 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E79670411623D7065AB598D4B59F28CF /* Pods */,
+				75B980474BB8EA0473E1133D0350CB0D /* Products */,
+				302F82AB916549CE5F2FC949FC1DA838 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79670411623D7065AB598D4B59F28CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE4B60E5BA1924E116727895422AD4 /* libwebp */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA5AC71FCE5CF90EAEC7118B0D68678 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42A67DA0199106CC6F2F5BAD6EB29D6 /* libwebpLib.debug.xcconfig */,
+				CC9FEF91E16EE5AB38E8463D5C4244B2 /* libwebpLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libwebpLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13AB3B08A5B241544A67F7A85BF71A14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB97CE552EC5891D51327D76A037AE88 /* Pods-libwebpLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74551D3E9F831427F1B013304518DD0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC0D4EB15502CFAA345F9676BE7AD74 /* alphai_dec.h in Headers */,
+				5D2188BE1E9B635A2D61C14A0410C939 /* backward_references_enc.h in Headers */,
+				DB03F62AA7C4856647017C8C764813B2 /* bit_reader_inl_utils.h in Headers */,
+				8F7A31552E325CCDAB7A5A4FD6CE271A /* bit_reader_utils.h in Headers */,
+				22D8F722395F2D4C4EC0A80254CCBFE6 /* bit_writer_utils.h in Headers */,
+				6EF3DEA47706EB40BAE36DAEBC46CDCC /* color_cache_utils.h in Headers */,
+				1668D6A120C945C9FF74405941DE87EC /* common_dec.h in Headers */,
+				743B58C50EE35A21907F8A735DA86B91 /* common_sse2.h in Headers */,
+				7DA135E2CD39054FBE01B8E15A293BAE /* common_sse41.h in Headers */,
+				C6B5ABEED793BAB8C4765AE62BEDE3D6 /* cost_enc.h in Headers */,
+				249CA992E9DBA761B2CECA0AB3125135 /* decode.h in Headers */,
+				BAFDD069B7DBBC350A3EDD75B4549028 /* demux.h in Headers */,
+				8534C979D2CFA37B655532327FCAA02A /* dsp.h in Headers */,
+				7D8DA817EB0D1CCD741BF06F9182808E /* encode.h in Headers */,
+				1BB186603644798C46F79BBBC3429EA8 /* endian_inl_utils.h in Headers */,
+				BE1E07D2454AA513065FBA684E0870E4 /* filters_utils.h in Headers */,
+				553BB88902CAD4BD6D4F56F2A340FF13 /* format_constants.h in Headers */,
+				7C8BE44DF126CDF8505646AD8F5AE6C7 /* histogram_enc.h in Headers */,
+				F47E7555E549373EF4AB24F127B5B60F /* huffman_encode_utils.h in Headers */,
+				86F2987699F9DB3ED36392ABA8530993 /* huffman_utils.h in Headers */,
+				AA5463F84429C6390688514A7FEC54B3 /* libwebp-umbrella.h in Headers */,
+				DBA4382D787DAE39F5A531EBCAFA4ED3 /* lossless.h in Headers */,
+				6F689063C8D818351DAEE965204019AD /* lossless_common.h in Headers */,
+				84A4DCBAC55F9570AD5B398E4A34926E /* mips_macro.h in Headers */,
+				EBDA7FC1CE3FB59E86ACE97B5C6C772C /* msa_macro.h in Headers */,
+				40D56C521584D34777B826D610EBE2C2 /* mux_types.h in Headers */,
+				311B051E55F14A9278D9A9897FFA08CF /* neon.h in Headers */,
+				B0F4D5CF46FAFBD5BAB2CBDF51823BE4 /* quant.h in Headers */,
+				B9B3E4B637261482F5693DCCF29C1B15 /* quant_levels_dec_utils.h in Headers */,
+				F40C9500A5F53997A423FEC40106F38D /* quant_levels_utils.h in Headers */,
+				9B840BB956D4D82426DC1F9EC43FD230 /* random_utils.h in Headers */,
+				AED1C910CE39EDB14EF4E61F178AC7C8 /* rescaler_utils.h in Headers */,
+				4452C2D0C1CEED1521C315E7309F2C38 /* thread_utils.h in Headers */,
+				2636794AF650B96B8D6F69AD759B69C0 /* types.h in Headers */,
+				EF230211BC47F594F5277451F6882AF8 /* utils.h in Headers */,
+				1F8097660283A63BB0CB5B742FF87103 /* vp8_dec.h in Headers */,
+				94D2AF00B2CDFA04D49581E05736673B /* vp8i_dec.h in Headers */,
+				709B813AB2671069696D927B23472DD4 /* vp8i_enc.h in Headers */,
+				E5BEDE5204F1F9B4BC2C987DC5A830ED /* vp8li_dec.h in Headers */,
+				813645C2F23A892C4A038C1B41A093BF /* vp8li_enc.h in Headers */,
+				81C8FE54A47BB408F79362F405C16506 /* webpi_dec.h in Headers */,
+				C581855FD49640D0E0C37ED634BFF225 /* yuv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE652BA9E28BFEA03EC33493C0494F15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A191449E12AC494D79FF69D55C0DF47 /* Pods-libwebpLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47D2E85A78C25869BB13521D8561A638 /* libwebp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FBA1DEAB825BA395F8836D8F9D95D23 /* Build configuration list for PBXNativeTarget "libwebp" */;
+			buildPhases = (
+				74551D3E9F831427F1B013304518DD0B /* Headers */,
+				742F734EB51C3B3D9FA55D7A6608B06F /* Sources */,
+				548C7FDDAE9EE55A031C68C959FFBBD0 /* Frameworks */,
+				08E6EB7604C6DB99E982F0ED1C4CACF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libwebp;
+			productName = libwebp;
+			productReference = 5E4674603A5D5B9215FFA0F8E69F8B71 /* libwebp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAA4C8ED5314280743C8CB4C9539FF66 /* Pods-libwebpLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7106A6AE7A921B2C03B61E2470FAEC /* Build configuration list for PBXNativeTarget "Pods-libwebpLib_Tests" */;
+			buildPhases = (
+				DE652BA9E28BFEA03EC33493C0494F15 /* Headers */,
+				94B6E89DE1BAC67E21C1A2A29777EC7F /* Sources */,
+				1B21FDE13FC8A858B9179252F3B26E06 /* Frameworks */,
+				D4F5364E4CEEB7C6D5DB0C2E2B57DFD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A301E0F330B9144460EF8C037C3D66A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-libwebpLib_Tests";
+			productName = "Pods-libwebpLib_Tests";
+			productReference = 425538F966163BB20704544E526D7F91 /* Pods_libwebpLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F44F2DDADC2E65ECE7B2E38E3C9BEBAD /* Pods-libwebpLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5975F2A560648194F5D30612254B3170 /* Build configuration list for PBXNativeTarget "Pods-libwebpLib_Example" */;
+			buildPhases = (
+				13AB3B08A5B241544A67F7A85BF71A14 /* Headers */,
+				85A587D23AA708E6F03694FBB198C018 /* Sources */,
+				363E914F82D2C63EBEDA25F1E87BC0E8 /* Frameworks */,
+				9E1967EE499E37971E70C9ACE8336665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1424FDC5DCF92D55BC6743E422E99319 /* PBXTargetDependency */,
+				0B60D86329CE99A7C755EB708B984AA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-libwebpLib_Example";
+			productName = "Pods-libwebpLib_Example";
+			productReference = 7643BDFC6CAA8DE04DF33EFD2911712A /* Pods_libwebpLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 75B980474BB8EA0473E1133D0350CB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D2E85A78C25869BB13521D8561A638 /* libwebp */,
+				52DA01501136D3F9CFC9BFC4BA5CEC67 /* libwebpLib */,
+				F44F2DDADC2E65ECE7B2E38E3C9BEBAD /* Pods-libwebpLib_Example */,
+				BAA4C8ED5314280743C8CB4C9539FF66 /* Pods-libwebpLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E6EB7604C6DB99E982F0ED1C4CACF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1967EE499E37971E70C9ACE8336665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F5364E4CEEB7C6D5DB0C2E2B57DFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742F734EB51C3B3D9FA55D7A6608B06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50D50E79E6218047C7CD98FA1B9FE50 /* alpha_dec.c in Sources */,
+				710C642AAB9635648507DE30823C58CF /* alpha_enc.c in Sources */,
+				184750D1AFD65FF73D9D3394E555DBCE /* alpha_processing.c in Sources */,
+				7730922E0696AF579D1B97A683578E9F /* alpha_processing_mips_dsp_r2.c in Sources */,
+				74A9BDF428B98A2B44949ADB22E55017 /* alpha_processing_neon.c in Sources */,
+				F27DDA88A22374A32E3A21EB41F323B6 /* alpha_processing_sse2.c in Sources */,
+				10142C10198E58926EEDA3B7C0FF0A62 /* alpha_processing_sse41.c in Sources */,
+				33106D198B41F515112DDCC0518F3477 /* analysis_enc.c in Sources */,
+				6C1FB4D36EC916FF91D8A99F3B317E55 /* anim_decode.c in Sources */,
+				271DFB47EA86AF684ABB360BBCE9F1B4 /* backward_references_cost_enc.c in Sources */,
+				C18D89A661A084C79471E1348792AA09 /* backward_references_enc.c in Sources */,
+				F6255F6157CA11E64B3C27E70CB2628E /* bit_reader_utils.c in Sources */,
+				5DFDC4F9DFF114CED526AD0FF302FE14 /* bit_writer_utils.c in Sources */,
+				EDDC476CB5090DFB55740106ACAEF131 /* buffer_dec.c in Sources */,
+				40C1D74A4B9D5F3DFAFA65BDB14148C8 /* color_cache_utils.c in Sources */,
+				299489733415EB607B7CD89587A99855 /* config_enc.c in Sources */,
+				5AF09A4DF8D447A323777CB7FC41FBCD /* cost.c in Sources */,
+				347C2F9D15722E2D4EB48D9A55A602E0 /* cost_enc.c in Sources */,
+				7321CD5E5747B191FBF90F9D0FE2CFAE /* cost_mips32.c in Sources */,
+				DF5C9C32D07BF249E59BDE88BE8211E2 /* cost_mips_dsp_r2.c in Sources */,
+				87240B0C0F53406AADA662B6BB7613E3 /* cost_neon.c in Sources */,
+				4D6B2449DC944D0328FF6B33F0F002EC /* cost_sse2.c in Sources */,
+				52112FF98DAA1D0658E6EEB3D0EFA001 /* cpu.c in Sources */,
+				9697CB72ED721C909D733B1CF60C2942 /* dec.c in Sources */,
+				A4DA09E7E588390193F321EE9DEA6317 /* dec_clip_tables.c in Sources */,
+				91C574D22DD7E021C0D8B5F1263FC8AE /* dec_mips32.c in Sources */,
+				3E7B9E7EAEB3E7B9840EE1646AC21646 /* dec_mips_dsp_r2.c in Sources */,
+				4B050754FFBCB52509FAEC130E410263 /* dec_msa.c in Sources */,
+				5862554C0E67CDBFF70D0066B71D24B9 /* dec_neon.c in Sources */,
+				43A0794E7EE8766B9A10E66B2A638E24 /* dec_sse2.c in Sources */,
+				389260F5C72E07E66E7B303E9726E6E4 /* dec_sse41.c in Sources */,
+				270571C74D9F0CD7ED2D3E928715E756 /* demux.c in Sources */,
+				3DCC19087EC63CB4D0734E2A96B569E0 /* enc.c in Sources */,
+				8F9E52873518C9E04699B0AF6D60AAE6 /* enc_mips32.c in Sources */,
+				DCAD05C8F462B26D4E09774F9D9E0047 /* enc_mips_dsp_r2.c in Sources */,
+				2984326F1094F82D1740F942346F6FAF /* enc_msa.c in Sources */,
+				833B1C289B1AC4EA46D5AC38C5C1FDFE /* enc_neon.c in Sources */,
+				C8D3309B48D260F67E8C19F4CE867C9D /* enc_sse2.c in Sources */,
+				81CE356DF9C932B8E2923F54DDA7E839 /* enc_sse41.c in Sources */,
+				4BB6452742E5900581CF4C360A9F0E1A /* filter_enc.c in Sources */,
+				749BFA075486956F81C069E2AC44B3B0 /* filters.c in Sources */,
+				88B1D50AEACF673D34211203C5FD3888 /* filters_mips_dsp_r2.c in Sources */,
+				7DF0F1AE63B65387694F11EC9D153566 /* filters_msa.c in Sources */,
+				5146AB69A227F7B82CD907B8531B61F6 /* filters_neon.c in Sources */,
+				B268AF7B3A49FD6A746DD3BF1199AB79 /* filters_sse2.c in Sources */,
+				D616184D1FB6461C3F06D6D3BFBB1B93 /* filters_utils.c in Sources */,
+				8750DA9906B26F4BDE741390D23B16E1 /* frame_dec.c in Sources */,
+				3763D4234B2CA641861C504DEFBC13A6 /* frame_enc.c in Sources */,
+				FA6F4212A8307C7F4B263F7DA736B762 /* histogram_enc.c in Sources */,
+				24A59A0B9F6321D42716B97EA0C7A3AA /* huffman_encode_utils.c in Sources */,
+				75394B7B9B15E5A4DA3C0ADC3DD6138B /* huffman_utils.c in Sources */,
+				421F455265E1DB6F2931A82ED682BDCC /* idec_dec.c in Sources */,
+				9526B0D16B79FD097F1A76D2D31CC959 /* io_dec.c in Sources */,
+				287E5B456622436D7461CB238261F938 /* iterator_enc.c in Sources */,
+				F0AE4025AB16C7E8A66372DD47920EBF /* libwebp-dummy.m in Sources */,
+				AB25976BFB5B0BC433686316B1A44B28 /* lossless.c in Sources */,
+				6B90DB25DBFC5D3D14DDCF00E6E28FDD /* lossless_enc.c in Sources */,
+				B31FF6C1EB4A19127A4D7CD29DAB7561 /* lossless_enc_mips32.c in Sources */,
+				B6C137919483A61BD6314944BF7A29F0 /* lossless_enc_mips_dsp_r2.c in Sources */,
+				44934667891571D37397E57DD706A4B4 /* lossless_enc_msa.c in Sources */,
+				0B9DD43FF286C0A5C71EA603DD3E031F /* lossless_enc_neon.c in Sources */,
+				CA2D6B8AB46F330C40FFF454BAB5DBEC /* lossless_enc_sse2.c in Sources */,
+				88285BAD82A2376A7E559D767A44A55D /* lossless_enc_sse41.c in Sources */,
+				0E2A940E37EAEB3C060746BF5E262206 /* lossless_mips_dsp_r2.c in Sources */,
+				8EC18A95131784760FDD46422FC06D36 /* lossless_msa.c in Sources */,
+				0DA851CBB3C3114EE52152D146386A0B /* lossless_neon.c in Sources */,
+				0BA58985EAA6651D784CC12D223B3AA1 /* lossless_sse2.c in Sources */,
+				7F5109C2CD2EEEED42CDDCDC90630419 /* near_lossless_enc.c in Sources */,
+				7289D3E643A2C9BBCB5EF13397370B9F /* picture_csp_enc.c in Sources */,
+				5D551192B7C308BA20460A186ED1159B /* picture_enc.c in Sources */,
+				0467C6A3CAB0C6E92F20E40252FF776C /* picture_psnr_enc.c in Sources */,
+				249E4AC54488F745DFC4689E6446D359 /* picture_rescale_enc.c in Sources */,
+				7085FFE17CB8612DBD1A27ACC2F5E117 /* picture_tools_enc.c in Sources */,
+				79D00E14C947B08C051C889025AA8495 /* predictor_enc.c in Sources */,
+				AF87AB4763E28BD9CB36279C89AD764E /* quant_dec.c in Sources */,
+				9FD0320AD867B4604A38A92F1BBF4AC4 /* quant_enc.c in Sources */,
+				4D4D10E9501D6FFC74E89C74BB88EF24 /* quant_levels_dec_utils.c in Sources */,
+				EC1F8ED6B42C43BA59AF400233670C78 /* quant_levels_utils.c in Sources */,
+				4614424F307A9A12B9D668CDEB2C8EAC /* random_utils.c in Sources */,
+				B927826E5425E561E6A351629B2A69F8 /* rescaler.c in Sources */,
+				C71902E65398F6424A49A1E73119FC03 /* rescaler_mips32.c in Sources */,
+				97C96B65C1BF73400490E1870FAF91F9 /* rescaler_mips_dsp_r2.c in Sources */,
+				950253446A4906BF2D531A4FDF21ECE7 /* rescaler_msa.c in Sources */,
+				0A8D637CE6AA6A00852F1346FCCDE72D /* rescaler_neon.c in Sources */,
+				0D3C176731FD0BBF052C52523C801E97 /* rescaler_sse2.c in Sources */,
+				96D05C91E46AC759EB6FE69C9B4047E9 /* rescaler_utils.c in Sources */,
+				78D4B1DC966B936A1254181FF28F10F8 /* ssim.c in Sources */,
+				16D03C24187B53C494571AB4D5E746B1 /* ssim_sse2.c in Sources */,
+				286E113E3FF390E278FB63171EE4A32A /* syntax_enc.c in Sources */,
+				44F6539FF217B401340F01A37B907247 /* thread_utils.c in Sources */,
+				ACBE11753B8FD1CAE5C418A585FA6668 /* token_enc.c in Sources */,
+				B275857FA752315D95893F0E96A1B4E0 /* tree_dec.c in Sources */,
+				A70E077D271B3904C2EB0806D30C80D9 /* tree_enc.c in Sources */,
+				7E9646E9B9CA42DB2697C3DE3E23159A /* upsampling.c in Sources */,
+				FB6F598E8C91DB05411CB0164E2FAE5C /* upsampling_mips_dsp_r2.c in Sources */,
+				F8761DB2E2FC6195D554D577717CB5CC /* upsampling_msa.c in Sources */,
+				31C55450F54847CDB7A8B0910DFD21EE /* upsampling_neon.c in Sources */,
+				3CEEE784DC8D933B038D4DA2E68D377B /* upsampling_sse2.c in Sources */,
+				1B645BE6E8C86DC72366F0B86FFB543C /* upsampling_sse41.c in Sources */,
+				7AB341361A7E0DA9FB17ADAB15B723DB /* utils.c in Sources */,
+				E8726C07A6EAC4D2B0E8D89293D0883E /* vp8_dec.c in Sources */,
+				B789793A1586C443C342D587C0B20ED8 /* vp8l_dec.c in Sources */,
+				F74864376A7C8CB6E5FCD81178FFB465 /* vp8l_enc.c in Sources */,
+				19119698F0B20FB8B019CCBAA13F77AA /* webp_dec.c in Sources */,
+				436DFA2B03618B252A592F16C5865662 /* webp_enc.c in Sources */,
+				01D39D1A1300EA4A8BC99A21C7C4F501 /* yuv.c in Sources */,
+				305AB08C1E2CE4FFDF646A8FE46722FD /* yuv_mips32.c in Sources */,
+				D33BAD24654B18CB0DD737B1F14C6C05 /* yuv_mips_dsp_r2.c in Sources */,
+				C6997C33C8E62988FBA2DDB9A81B0196 /* yuv_neon.c in Sources */,
+				3CA4E2CD5E5F07A4BAEB75E3A30B1678 /* yuv_sse2.c in Sources */,
+				288DFA52402D7B7FD507B068330D817C /* yuv_sse41.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A587D23AA708E6F03694FBB198C018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4490EE3914EB4416C480386D472337D0 /* Pods-libwebpLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6E89DE1BAC67E21C1A2A29777EC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8405D8BD9D26ED0E255B60E7A363CB /* Pods-libwebpLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B60D86329CE99A7C755EB708B984AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebpLib;
+			target = 52DA01501136D3F9CFC9BFC4BA5CEC67 /* libwebpLib */;
+			targetProxy = 2A7FD3C05BFD2F2BF73BC548D47C285A /* PBXContainerItemProxy */;
+		};
+		1424FDC5DCF92D55BC6743E422E99319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp;
+			target = 47D2E85A78C25869BB13521D8561A638 /* libwebp */;
+			targetProxy = 4CDDB5FD6FFEE9C830E41AF375E8886B /* PBXContainerItemProxy */;
+		};
+		474F14E660F23E6B7674D3BD9D6CFB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp;
+			target = 47D2E85A78C25869BB13521D8561A638 /* libwebp */;
+			targetProxy = 51C07C784925BFECB76C4BD3B8FA16DD /* PBXContainerItemProxy */;
+		};
+		A301E0F330B9144460EF8C037C3D66A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-libwebpLib_Example";
+			target = F44F2DDADC2E65ECE7B2E38E3C9BEBAD /* Pods-libwebpLib_Example */;
+			targetProxy = DF3770DD40D57129CF1CACA88D59F6C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01651917B08B4ED4EEE395EF5151B7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48853FB01D445ECBF059337A2CF1AD0 /* libwebp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libwebp/libwebp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libwebp/libwebp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libwebp/libwebp.modulemap";
+				PRODUCT_MODULE_NAME = libwebp;
+				PRODUCT_NAME = libwebp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0771BC1E883BAA3A09C9D4F399495AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F5C1492D436614E3319BDAC1EEA0F9 /* Pods-libwebpLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libwebpLib_Tests/Pods-libwebpLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libwebpLib_Tests/Pods-libwebpLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C80B2D3B40DAF5D889F7F61BB9B28C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42A67DA0199106CC6F2F5BAD6EB29D6 /* libwebpLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A48B3AAF7BA3F7D1F32B575930B15C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8CE3AF8E886AE700ADCC6BADF6BD5F /* libwebp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libwebp/libwebp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libwebp/libwebp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libwebp/libwebp.modulemap";
+				PRODUCT_MODULE_NAME = libwebp;
+				PRODUCT_NAME = libwebp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		788D169A6C0C54AAF9FD8AC62E27EDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4831817A1FE57FDF82F0294CF27C1021 /* Pods-libwebpLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libwebpLib_Tests/Pods-libwebpLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libwebpLib_Tests/Pods-libwebpLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9B57C2CBF4EF540F2C9DB34F93A4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581BAA9F9A14E087BF5B4DBBCB9CAF3B /* Pods-libwebpLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libwebpLib_Example/Pods-libwebpLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libwebpLib_Example/Pods-libwebpLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF919BB343B1638BE0A88E8B2A4139EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F1057001C5C07A888A921EEE4B7141 /* Pods-libwebpLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libwebpLib_Example/Pods-libwebpLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libwebpLib_Example/Pods-libwebpLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D310A9980CC020CA0CEFF232E592311C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9FEF91E16EE5AB38E8463D5C4244B2 /* libwebpLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D79F9FA8C6E491377BE52812FD442BC /* Build configuration list for PBXAggregateTarget "libwebpLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C80B2D3B40DAF5D889F7F61BB9B28C0 /* Debug */,
+				D310A9980CC020CA0CEFF232E592311C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5975F2A560648194F5D30612254B3170 /* Build configuration list for PBXNativeTarget "Pods-libwebpLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF919BB343B1638BE0A88E8B2A4139EC /* Debug */,
+				A9B57C2CBF4EF540F2C9DB34F93A4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FBA1DEAB825BA395F8836D8F9D95D23 /* Build configuration list for PBXNativeTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01651917B08B4ED4EEE395EF5151B7F9 /* Debug */,
+				3A48B3AAF7BA3F7D1F32B575930B15C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7106A6AE7A921B2C03B61E2470FAEC /* Build configuration list for PBXNativeTarget "Pods-libwebpLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D169A6C0C54AAF9FD8AC62E27EDDC /* Debug */,
+				0771BC1E883BAA3A09C9D4F399495AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
